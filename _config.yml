@@ -26,8 +26,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "肖远志 Yuanzhi Xiao"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "济南大学 · 通信工程 · 2023级"
-  bio_en           : "Jinan University · Communication Engineering · Class of 2023"
+  bio              : "济南大学 · 通信工程"
+  bio_en           : "Jinan University · Communication Engineering"
   location         : "Jinan, China"
   employer         : "Jinan University"
   pubmed           :

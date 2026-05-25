@@ -12,9 +12,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-我是**肖远志**，目前是济南大学通信工程专业 2023 级本科生**3/86**。
+我是**肖远志**，目前是济南大学通信工程专业本科生。
 
-研究兴趣包括**智能优化算法**、**计算机视觉**与**具身智能**：在崔世耀副教授课题组参与无人分拣车路径规划与调度、融合视觉语言大模型的机器人导航与抓取等科研项目。竞赛方面专注于算法与程序设计，获 ACM-ICPC 区域赛/邀请赛、CCPC、蓝桥杯、天梯赛等多项**国家级**奖项。
+研究兴趣包括**智能优化算法**、**计算机视觉**与**具身智能**。
+
+先前在崔世耀副教授课题组参与无人分拣车路径规划与调度、融合视觉语言大模型的机器人导航与抓取等科研项目。竞赛方面专注于算法与程序设计，获ACM-ICPC压轴区域赛金奖、CCPC国赛金奖、蓝桥杯全国一等奖、天梯赛全国一等奖等多项**国家级**奖项。
 
 欢迎通过邮件 [xyz@stu.ujn.edu.cn](mailto:xyz@stu.ujn.edu.cn) 与我联系。
 
@@ -25,13 +27,13 @@ redirect_from:
 <div class="news-scroll" markdown="1">
 
 - *2026.5.24* 🎉 2026年山东省大学生程序设计竞赛 **省金奖(亚军)**
-- *2026.5.6*  全国高校计算机大赛 - 团体程序设计天梯赛 **国一等奖**
+- *2026.5.6* 全国高校计算机大赛—团体程序设计天梯赛 **国一等奖**
 - *2026.4.26* 🎉 中国大学生程序设计竞赛总决赛 **国铜奖**
 - *2026.4.10* 第十六届蓝桥杯全国软件和信息技术专业人才大赛C/C++程序设计大学B组 **省一等奖**
-- *2026.3.29*:  CCF CSP计算机软件能力认证，成绩400分 (400/500) 
+- *2026.3.29*: CCF CSP计算机软件能力认证，成绩400分(400/500)
 - *2025.10 — 2026.3*: 科研项目《融合视觉语言大模型的机器人导航与抓取关键技术研究》（核心成员）
 - *2026.2.2*: 🎉 ACM-ICPC亚洲区域赛决赛 **银奖**
-- *2026.2*  第九届牛客寒假算法基础集训营 **一等奖**
+- *2026.2* 第九届牛客寒假算法基础集训营 **一等奖**
 - *2025.12.10* 🎉 第21届百度之星程序设计大赛决赛（国赛）**国银奖**
 - *2025.11.23* 🎉 中国大学生程序设计竞赛（CCPC）国赛郑州站 **国银奖**
 - *2025.11.16* 🎉 中国大学生程序设计竞赛（CCPC）国赛济南站 **国金奖**
@@ -44,26 +46,26 @@ redirect_from:
 - *2025.8* 🎉 全国大学生电子设计竞赛山东赛区 **三等奖**
 - *2025.7.15* 第21届百度之星程序设计大赛初赛（人才专项赛道）（码蹄杯） **省金奖**
 - *2025.6.23* 第十六届蓝桥杯全国软件和信息技术专业人才大赛全国总决赛C/C++程序设计大学B组 **国一等奖**
-- *2025.6* 📄 全国大学英语六级（CET-6），总分 434 分
+- *2025.6* 📄 全国大学英语六级（CET-6），总分434分
 - *2025.5.26* 第十六届蓝桥杯全国软件和信息技术专业人才大赛山东赛区C/C++程序设计大学B组 **省一等奖**
-- *2025.5.8*  第七届传智杯全国IT技能大赛程序设计挑战赛B组 **国一等奖**
+- *2025.5.8* 第七届传智杯全国IT技能大赛程序设计挑战赛B组 **国一等奖**
 - *2025.5.6* 2025年中国高校计算机大赛-团体程序设计天梯赛全国总决赛 **国一等奖**
-- *2025.5.6* 2025年第十二届“大唐杯 ”全国大学 生新一代信息通信技术大赛 完赛
-- *2025.5*  2025年山东省大学生程序设计竞赛 **省金奖**
+- *2025.5.6* 2025年第十二届“大唐杯”全国大学生新一代信息通信技术大赛完赛
+- *2025.5* 2025年山东省大学生程序设计竞赛 **省金奖**
 - *2025.3.23* 第七届传智杯全国IT技能大赛程序设计挑战赛B组 **省一等奖**
 - *2025.2* 第八届牛客寒假算法基础集训营 **一等奖**
 - *2024.12.31* 第一届CCF算法能力大赛 **山东省一等奖**
-- *2024.12.31*  第七届传智杯全国IT技能大赛程序设计挑战赛B组 **初赛一等奖**
-- *2024.12* 📄 全国大学英语四级（CET-4），总分 485 分
+- *2024.12.31* 第七届传智杯全国IT技能大赛程序设计挑战赛B组 **初赛一等奖**
+- *2024.12* 📄 全国大学英语四级（CET-4），总分485分
 - *2024.12* 🎉 2024年可达鸭编程杯山东大学程序设计精英挑战赛暨第三届济南市程序设计精英挑战赛赛道二 **一等奖(亚军)**
 - *2024.11.10* 🎉 ACM-ICPC国际大学生程序设计竞赛亚洲区域赛(杭州站) **铜奖**
-- *2024.10.27*  2024年中国大学生程序设计竞赛国赛济南站 **优胜奖**
-- *2024.9*  第七届牛客暑期多校训练营 **三等奖**
+- *2024.10.27* 2024年中国大学生程序设计竞赛国赛济南站 **优胜奖**
+- *2024.9* 第七届牛客暑期多校训练营 **三等奖**
 - *2024.8.15* 2024睿抗机器人开发者大赛（RAICOM）全国总决赛编程技能竞赛项目 **国一等奖**
-- *2024.8.1* 2024年TI杯山东省大学生电子设计竞赛 **省三等奖**
+- *2024.8.1* 2024年TI杯山东省大学生电子设计竞赛 **三等奖**
 - *2024.8* 🎉 第20届百度之星程序设计大赛省赛（初赛）山东省赛区 **省铜奖**
 - *2024.7.31* 2024睿抗机器人开发者大赛（RAICOM）山东省编程技能竞赛项目 **省一等奖**
-- *2024.6.2*  第十五届蓝桥杯全国软件和信息技术专业人才大赛全国总决赛C/C++程序设计大学B组 **国二等奖**
+- *2024.6.2* 第十五届蓝桥杯全国软件和信息技术专业人才大赛全国总决赛C/C++程序设计大学B组 **国二等奖**
 - *2024.5.26* 🎉 2024年中国大学生程序设计竞赛-山东省大学生程序设计竞赛 **省金奖**
 - *2024.5.26* 🎉 2024年中国大学生程序设计竞赛-全国邀请赛（山东） **国银奖**
 - *2024.4.30* 2024年中国高校计算机大赛-团体程序设计天梯赛全国总决赛 **国三等奖**
@@ -72,30 +74,9 @@ redirect_from:
 
 </div>
 
-<p class="news-scroll-hint news-scroll-hint--zh">在框内滚动鼠标滚轮查看更多 ↓</p>
-<p class="news-scroll-hint news-scroll-hint--en">Scroll inside the box for more ↓</p>
-
 </div>
 
 # 🔬 Research Projects
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.10 — 2025.10</div><img src='{{ "/images/500x300.png" | relative_url }}' alt="project" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**融合视觉感知与群智能优化的无人分拣车路径规划与调度**（核心成员）
-
-*崔世耀副教授课题组 · 省部级大学生创新创业项目*
-
-针对仓储无人分拣车在复杂环境下的识别精度不足、路径规划安全性差与多车调度效率低等问题，融合 **YOLOv5** 目标检测、改进 **A\*** 路径规划、**遗传算法 (GA)** 求解 TSP、**粒子群 (PSO)** 与 **变邻域搜索 (VNS)** 多车协同调度，构建集精准识别、安全导航与智能调度于一体的无人分拣系统。
-
-**主要成果**
-- YOLOv5 检测准确率 **89.69%**（自建数据集 3200 张，训练 200 轮）
-- 改进 A\* 在复杂场景中紧邻障碍物次数较传统 A\* 减少 **89.7%**（29 → 3）
-- 30 任务点 TSP 路径冗余减少 **16.8%**；多车 PSO 求解误差 < **9.4%**，较 CPLEX 耗时降低 **90%+**
-- VNS 处理双向取送约束，较传统模式节约成本约 **20%**
-
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.10 — 至今</div><img src='{{ "/images/500x300.png" | relative_url }}' alt="project" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -107,44 +88,48 @@ redirect_from:
 融合 **CLIP、SAM2、Llama2** 等多模态大模型与具身智能算法，研究自然语言交互导航与低成本抓取数据增强。
 
 **主要成果**
-- **IVLMap**：实例级视觉语言地图，Matterport3D 导航成功率较 VLMap 基线提升 **15%**
-- **ROSGPT**：语音指令转可执行代码，真实平台任务成功率最高 **85%**
-- **LeRobot-SAM2**：抓取数据增强框架，ACT 成功率最高 **80%**，较基线提升 **15%–20%**，采集成本降低 **2 倍**以上
+- **IVLMap**：实例级视觉语言地图，Matterport3D导航成功率较VLMap基线提升**15%**
+- **ROSGPT**：语音指令转可执行代码，真实平台任务成功率最高**85%**
+- **LeRobot-SAM2**：抓取数据增强框架，ACT成功率最高**80%**，较基线提升**15%–20%**，采集成本降低**2倍**以上
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.10 — 2025.10</div><img src='{{ "/images/500x300.png" | relative_url }}' alt="project" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**融合视觉感知与群智能优化的无人分拣车路径规划与调度**（核心成员）
+
+*崔世耀副教授课题组 · 省部级大学生创新创业项目*
+
+针对仓储无人分拣车在复杂环境下的识别精度不足、路径规划安全性差与多车调度效率低等问题，融合 **YOLOv5**目标检测、改进 **A\***路径规划、**遗传算法(GA)**求解TSP、**粒子群(PSO)**与**变邻域搜索(VNS)**多车协同调度，构建集精准识别、安全导航与智能调度于一体的无人分拣系统。
+
+**主要成果**
+- YOLOv5检测准确率**89.69%**（自建数据集3200张，训练200轮）
+- 改进A\*在复杂场景中紧邻障碍物次数较传统A\*减少**89.7%**（29 → 3）
+- 30任务点TSP路径冗余减少**16.8%**；多车PSO求解误差小于**9.4%**，较CPLEX耗时降低**90%+**
+- VNS处理双向取送约束，较传统模式节约成本约**20%**
 
 </div>
 </div>
 
 # 🎖 Honors and Awards
 
-**累计获奖：国家级 12 项；省部级 3 项；校级 2 项**
-
-## 程序设计竞赛（ACM / CCPC）
-
-- *2026*: ACM-ICPC 亚洲区域赛**决赛**银奖
-- *2025*: ACM-ICPC 西安、武汉区域赛**金奖** ×2
-- *2025*: CCPC 国赛济南站**金奖**、郑州站银奖
-- *2024*: CCPC 全国邀请赛（山东）银奖；ACM-ICPC 全国邀请赛（西安）银奖
-- 山东省大学生程序设计竞赛**省金** ×2
-
-## 其他国家级竞赛
-
-- *2025*: 蓝桥杯 C/C++ 程序设计大学 B 组**全国一等奖**
-- *2025*: 中国高校计算机大赛·团体程序设计天梯赛**全国一等奖**
-- *2024*: 睿抗机器人开发者大赛 CAIP 赛道**全国一等奖**
-- *2025*: 百度之星程序设计大赛人才专项**国金奖**、国赛**银奖**
-
-## 在校荣誉
-
-- 省部级大学生创新创业项目（主持/核心参与）
-- 校级大学生创新创业项目
-- 校**一等奖学金**
+- *2026.5* 山东省大学生程序设计竞赛**省金奖（亚军）**
+- *2026* ACM-ICPC亚洲区域赛**决赛**银奖；CCPC**总决赛**国铜奖
+- *2025* ACM-ICPC西安、武汉区域赛**金奖** ×2；CCPC国赛济南站**国金奖**、郑州站国银奖
+- *2025–2026* 中国高校计算机大赛·团体程序设计天梯赛 **全国一等奖**（两届）
+- *2025* 第十六届蓝桥杯C/C++程序设计大学B组 **全国一等奖**
+- *2025* 百度之星·程序设计大赛人才专项赛道 **国金奖**、国赛 **国银奖**
+- *2024* 睿抗机器人开发者大赛（RAICOM）CAIP赛道 **全国一等奖**
+- 省部级/校级大创项目（核心成员）、校**一等奖学金**、校优秀学生
 
 # 📖 Educations
 
 - *2023.09 — 2027.06（在读）*, **济南大学**, 通信工程
-  - 平均绩点：**4.79 / 5** | 专业排名：**3 / 86**
-  - CET-4: 485；CET-6: 434
-  - 代表性课程：高等数学(一)(100)、概率论与数理统计 A(100)、复变函数与积分变换(100)、程序设计基础(99)、线性代数与空间解析几何(99)
+  - 平均绩点：**4.79/5** | 专业排名：**3/86**
+
+- *2020.09 — 2023.06*, **湖北省仙桃中学**
 
 </div>
 
@@ -152,9 +137,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am **Yuanzhi Xiao (肖远志)**, an undergraduate student in Communication Engineering at Jinan University (Sep 2023 — Jun 2027), with a GPA of **4.79/5** and a major rank of **3/86**.
+I am **Yuanzhi Xiao (肖远志)**, an undergraduate in Communication Engineering at Jinan University.
 
-My research interests include **intelligent optimization**, **computer vision**, and **embodied AI**. I have participated in research projects on unmanned sorting vehicle path planning and vision-language-model-based robot navigation and grasping under Assoc. Prof. Cui Shiyao's group. I also focus on competitive programming and have won multiple **national-level** awards in ACM-ICPC, CCPC, Lanqiao Cup, and related contests.
+My research interests include **intelligent optimization**, **computer vision**, and **embodied AI**.
+
+I previously worked as a core member on research projects in unmanned sorting vehicle path planning and scheduling, and robot navigation and grasping with vision-language foundation models under Assoc. Prof. Cui Shiyao's group. In competitive programming, I focus on algorithms and design, and have won multiple **national-level** awards, including ACM-ICPC regional **gold** medals, CCPC national **gold**, Lanqiao Cup national first prize, and GPLT national first prize.
 
 Feel free to contact me at [xyz@stu.ujn.edu.cn](mailto:xyz@stu.ujn.edu.cn).
 
@@ -162,14 +149,80 @@ Feel free to contact me at [xyz@stu.ujn.edu.cn](mailto:xyz@stu.ujn.edu.cn).
 
 # 🔥 News
 
-- *Mar 2026*: 🎉 ACM-ICPC Asia Regional **Finals** — Silver
-- *2025*: 🎉 ACM-ICPC Xi'an & Wuhan Regionals — **Gold**; CCPC National Jinan — **Gold**, Zhengzhou — Silver
-- *Oct 2025 — Present*: Core member, research project on vision-language models for robot navigation and grasping
-- *Oct 2024 — Oct 2025*: Completed provincial innovation project on unmanned sorting vehicles (core member)
+<div class="news-scroll-wrap" markdown="0">
+
+<div class="news-scroll" markdown="1">
+
+- *May 24, 2026* 🎉 Shandong Collegiate Programming Contest — **Provincial Gold (Runner-up)**
+- *May 6, 2026* GPLT Team Programming Ladder — **National First Prize**
+- *Apr 26, 2026* 🎉 CCPC **National Finals** — **Bronze**
+- *Apr 10, 2026* 16th Lanqiao Cup C/C++ University Group B — **Provincial First Prize**
+- *Mar 29, 2026* CCF CSP certification, score 400 (400/500)
+- *Oct 2025 — Mar 2026* Research project on robot navigation and grasping with vision-language models (core member)
+- *Feb 2, 2026* 🎉 ACM-ICPC Asia Regional **Finals** — **Silver**
+- *Feb 2026* 9th Nowcoder Winter Algorithm Training Camp — **First Prize**
+- *Dec 10, 2025* 🎉 21st Baidu Star Programming Contest National Finals — **Silver**
+- *Nov 23, 2025* 🎉 CCPC National Zhengzhou — **Silver**
+- *Nov 16, 2025* 🎉 CCPC National Jinan — **Gold**
+- *Nov 2, 2025* 🎉 ACM-ICPC Asia Regional (Wuhan) — **Gold**
+- *Oct 19, 2025* 🎉 ACM-ICPC Asia Regional (Xi'an) — **Gold**
+- *Oct 2024 — Oct 2025* Provincial innovation project on unmanned sorting vehicles (core member)
+- *Sep 2025* 8th Nowcoder Summer Multi-University Training Camp — **Second Prize**
+- *Aug 30, 2025* 21st Baidu Star Finals (Talent Track, Codeti Cup) — **National Gold**
+- *Aug 25, 2025* 21st Baidu Star Preliminary (Provincial) — **Silver**
+- *Aug 2025* 🎉 National Undergraduate Electronic Design Contest (Shandong) — **Third Prize**
+- *Jul 15, 2025* 21st Baidu Star Preliminary (Talent Track, Codeti Cup) — **Provincial Gold**
+- *Jun 23, 2025* 16th Lanqiao Cup C/C++ National Finals — **National First Prize**
+- *Jun 2025* 📄 CET-6, score 434
+- *May 26, 2025* 16th Lanqiao Cup C/C++ Shandong Provincial — **Provincial First Prize**
+- *May 8, 2025* 7th ICTPC Programming Challenge Group B — **National First Prize**
+- *May 6, 2025* 2025 GPLT National Finals — **National First Prize**
+- *May 6, 2025* 12th Datang Cup National ICT Competition — completed
+- *May 2025* 2025 Shandong Collegiate Programming Contest — **Provincial Gold**
+- *Mar 23, 2025* 7th ICTPC Programming Challenge Group B — **Provincial First Prize**
+- *Feb 2025* 8th Nowcoder Winter Algorithm Training Camp — **First Prize**
+- *Dec 31, 2024* 1st CCF Algorithm Ability Contest — **Shandong First Prize**
+- *Dec 31, 2024* 7th ICTPC Programming Challenge Group B — **Preliminary First Prize**
+- *Dec 2024* 📄 CET-4, score 485
+- *Dec 2024* 🎉 Kedaya Programming Cup & Jinan Elite Programming Challenge Track 2 — **First Prize (Runner-up)**
+- *Nov 10, 2024* 🎉 ACM-ICPC Asia Regional (Hangzhou) — **Bronze**
+- *Oct 27, 2024* 2024 CCPC National Jinan — **Meritorious Prize**
+- *Sep 2024* 7th Nowcoder Summer Multi-University Training Camp — **Third Prize**
+- *Aug 15, 2024* 2024 RAICOM National Finals Programming Skills — **National First Prize**
+- *Aug 1, 2024* 2024 TI Cup Shandong Undergraduate Electronic Design Contest — **Third Prize**
+- *Aug 2024* 🎉 20th Baidu Star Shandong Preliminary — **Bronze**
+- *Jul 31, 2024* 2024 RAICOM Shandong Programming Skills — **Provincial First Prize**
+- *Jun 2, 2024* 15th Lanqiao Cup C/C++ National Finals — **National Second Prize**
+- *May 26, 2024* 🎉 2024 CCPC Shandong Provincial — **Provincial Gold**
+- *May 26, 2024* 🎉 2024 CCPC National Invitational (Shandong) — **Silver**
+- *Apr 30, 2024* 2024 GPLT National Finals — **National Third Prize**
+- *Apr 29, 2024* 15th Lanqiao Cup C/C++ Shandong Provincial — **Provincial First Prize**
+- *Nov 2023* “Yuejun Cup” Jinan University 6th ACM Freshman Contest — **First Prize (Runner-up)**
+
+</div>
+
+</div>
 
 <span class='anchor' id='en-research-projects'></span>
 
 # 🔬 Research Projects
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Oct 2025 — Present</div><img src='{{ "/images/500x300.png" | relative_url }}' alt="project" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Robot Navigation and Grasping with Vision-Language Foundation Models** (Core Member)
+
+*Assoc. Prof. Cui Shiyao's Group · University-Level Innovation Project*
+
+We integrate multimodal models (**CLIP, SAM2, Llama2**) with embodied intelligence for natural-language navigation and low-cost grasp data augmentation.
+
+**Key Results**
+- **IVLMap**: instance-level vision-language map; **+15%** navigation success vs. VLMap on Matterport3D
+- **ROSGPT**: speech-to-executable code; up to **85%** task success on real robots
+- **LeRobot-SAM2**: grasp data augmentation; ACT success up to **80%** (**+15–20%** vs. baseline), **2×** lower data collection cost
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Oct 2024 — Oct 2025</div><img src='{{ "/images/500x300.png" | relative_url }}' alt="project" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -189,57 +242,26 @@ We address low recognition accuracy, unsafe path planning, and inefficient multi
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Oct 2025 — Present</div><img src='{{ "/images/500x300.png" | relative_url }}' alt="project" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Robot Navigation and Grasping with Vision-Language Foundation Models** (Core Member)
-
-*Assoc. Prof. Cui Shiyao's Group · University-Level Innovation Project*
-
-We integrate multimodal models (**CLIP, SAM2, Llama2**) with embodied intelligence for natural-language navigation and low-cost grasp data augmentation.
-
-**Key Results**
-- **IVLMap**: instance-level vision-language map; **+15%** navigation success vs. VLMap on Matterport3D
-- **ROSGPT**: speech-to-executable code; up to **85%** task success on real robots
-- **LeRobot-SAM2**: grasp data augmentation; ACT success up to **80%** (**+15–20%** vs. baseline), **2×** lower data collection cost
-
-</div>
-</div>
-
 <span class='anchor' id='en-honors-and-awards'></span>
 
 # 🎖 Honors and Awards
 
-**Total: 12 national · 3 provincial · 2 university-level awards**
-
-## Competitive Programming (ACM / CCPC)
-
-- *2026*: ACM-ICPC Asia Regional **Finals** — Silver
-- *2025*: ACM-ICPC Xi'an & Wuhan Regionals — **Gold** ×2
-- *2025*: CCPC National Jinan — **Gold**, Zhengzhou — Silver
-- *2024*: CCPC National Invitational (Shandong) — Silver; ACM-ICPC National Invitational (Xi'an) — Silver
-- Shandong Provincial Collegiate Programming Contest — **Gold** ×2
-
-## Other National Contests
-
-- *2025*: Lanqiao Cup C/C++ University Group B — **National First Prize**
-- *2025*: GPLT Team Programming Ladder — **National First Prize**
-- *2024*: RAICOM CAIP Track — **National First Prize**
-- *2025*: Baidu Star Programming Contest — Talent Track **Gold**, National **Silver**
-
-## On-Campus Honors
-
-- Provincial university student innovation project (core member)
-- University-level innovation project
-- University **First-Class Scholarship**
+- *May 2026* Shandong Collegiate Programming Contest — **Provincial Gold (Runner-up)**
+- *2026* ACM-ICPC Asia Regional **Finals** — Silver; CCPC **National Finals** — Bronze
+- *2025* ACM-ICPC Xi'an & Wuhan Regionals — **Gold** ×2; CCPC National Jinan — **Gold**, Zhengzhou — Silver
+- *2025–2026* GPLT Team Programming Ladder — **National First Prize** (twice)
+- *2025* 16th Lanqiao Cup C/C++ University Group B — **National First Prize**
+- *2025* Baidu Star Talent Track — **National Gold**, National Finals **Silver**
+- *2024* RAICOM CAIP Track — **National First Prize**
+- Provincial / university innovation projects (core member), First-Class Scholarship, Outstanding Student
 
 <span class='anchor' id='en-educations'></span>
 
 # 📖 Education
 
 - *Sep 2023 — Jun 2027 (Expected)*, **Jinan University**, Communication Engineering
-  - GPA: **4.79 / 5** | Rank: **3 / 86**
-  - CET-4: 485; CET-6: 434
-  - Selected courses: Calculus I (100), Probability & Statistics (100), Complex Analysis (100), Programming Fundamentals (99), Linear Algebra (99)
+  - GPA: **4.79/5** | Rank: **3/86**
+
+- *Sep 2020 — Jun 2023*, **Xiantao Middle School, Hubei** (湖北省仙桃中学)
 
 </div>

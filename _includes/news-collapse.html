@@ -1,0 +1,74 @@
+<style>
+  .news-scroll-wrap {
+    position: relative;
+    margin-bottom: 0.5em;
+  }
+
+  .news-scroll {
+    max-height: calc(1.75em * 15);
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior: contain;
+    padding-right: 0.6em;
+    margin: 0;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: #c9c9c9 transparent;
+  }
+
+  .news-scroll::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .news-scroll::-webkit-scrollbar-thumb {
+    background: #c9c9c9;
+    border-radius: 3px;
+  }
+
+  .news-scroll::-webkit-scrollbar-thumb:hover {
+    background: #eeac00;
+  }
+
+  .news-scroll-wrap::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0.6em;
+    bottom: 1.6em;
+    height: 2.5em;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff 90%);
+    pointer-events: none;
+  }
+
+  .news-scroll-wrap.is-scrolled-end::after {
+    opacity: 0;
+  }
+
+  .news-scroll-hint {
+    margin: 0.4em 0 0;
+    font-size: 0.8em;
+    color: #9a9a9a;
+    text-align: center;
+  }
+
+  html.site-lang-en .news-scroll-hint--zh { display: none; }
+  html:not(.site-lang-en) .news-scroll-hint--en { display: none; }
+</style>
+<script>
+  (function () {
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll(".news-scroll-wrap").forEach(function (wrap) {
+        var box = wrap.querySelector(".news-scroll");
+        if (!box) return;
+
+        function updateFade() {
+          var atBottom = box.scrollTop + box.clientHeight >= box.scrollHeight - 4;
+          wrap.classList.toggle("is-scrolled-end", atBottom);
+        }
+
+        box.addEventListener("scroll", updateFade);
+        updateFade();
+      });
+    });
+  })();
+</script>

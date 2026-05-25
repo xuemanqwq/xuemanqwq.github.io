@@ -20,6 +20,10 @@ redirect_from:
 
 # 🔥 News
 
+<div class="news-scroll-wrap" markdown="0">
+
+<div class="news-scroll" markdown="1">
+
 - *2026.5.24* 🎉 2026年山东省大学生程序设计竞赛 **省金奖(亚军)**
 - *2026.5.6*  全国高校计算机大赛 - 团体程序设计天梯赛 **国一等奖**
 - *2026.4.26* 🎉 中国大学生程序设计竞赛总决赛 **国铜奖**
@@ -65,6 +69,13 @@ redirect_from:
 - *2024.4.30* 2024年中国高校计算机大赛-团体程序设计天梯赛全国总决赛 **国三等奖**
 - *2024.4.29* 第十五届蓝桥杯全国软件和信息技术专业人才大赛山东赛区C/C++程序设计大学B组 **省一等奖**
 - *2023.11* “跃骏杯”济南大学第六届ACM大学生程序设计新生赛 **一等奖(亚军)**
+
+</div>
+
+<p class="news-scroll-hint news-scroll-hint--zh">在框内滚动鼠标滚轮查看更多 ↓</p>
+<p class="news-scroll-hint news-scroll-hint--en">Scroll inside the box for more ↓</p>
+
+</div>
 
 # 🔬 Research Projects
 

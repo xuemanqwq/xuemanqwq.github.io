@@ -1,0 +1,16 @@
+# English navigation
+main:
+  - title: "About"
+    url: "/en/#about-me"
+
+  - title: "News"
+    url: "/en/#-news"
+
+  - title: "Research"
+    url: "/en/#-research-projects"
+
+  - title: "Awards"
+    url: "/en/#-honors-and-awards"
+
+  - title: "Education"
+    url: "/en/#-educations"

@@ -1,5 +1,6 @@
 ---
 permalink: /
+lang: zh
 title: ""
 excerpt: ""
 author_profile: true
@@ -8,51 +9,86 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+我是**肖远志**，济南大学通信工程专业 2023 级本科生（2023.09 — 2027.06），平均绩点 **4.79/5**，专业排名 **3/86**。
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+研究兴趣包括**智能优化算法**、**计算机视觉**与**具身智能**：在崔世耀副教授课题组参与无人分拣车路径规划与调度、融合视觉语言大模型的机器人导航与抓取等科研项目。竞赛方面专注于算法与程序设计，获 ACM-ICPC 区域赛/邀请赛、CCPC、蓝桥杯、天梯赛等多项**国家级**奖项。
 
+欢迎通过邮件 [xyz@stu.ujn.edu.cn](mailto:xyz@stu.ujn.edu.cn) 与我联系。
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📝 Publications 
+- *2026.03*: 🎉 ACM-ICPC 亚洲区域赛**决赛**银奖
+- *2025*: 🎉 ACM-ICPC 西安、武汉区域赛**金奖**；CCPC 国赛济南站**金奖**、郑州站银奖
+- *2025.10 — 至今*: 参与科研项目《融合视觉语言大模型的机器人导航与抓取关键技术研究》（核心成员）
+- *2024.10 — 2025.10*: 完成省部级大创项目《融合视觉感知与群智能优化的无人分拣车路径规划与调度》（核心成员）
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+# 🔬 Research Projects
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.10 — 2025.10</div><img src='images/500x300.png' alt="project" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+**融合视觉感知与群智能优化的无人分拣车路径规划与调度**（核心成员）
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+*崔世耀副教授课题组 · 省部级大学生创新创业项目*
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+针对仓储无人分拣车在复杂环境下的识别精度不足、路径规划安全性差与多车调度效率低等问题，融合 **YOLOv5** 目标检测、改进 **A\*** 路径规划、**遗传算法 (GA)** 求解 TSP、**粒子群 (PSO)** 与 **变邻域搜索 (VNS)** 多车协同调度，构建集精准识别、安全导航与智能调度于一体的无人分拣系统。
+
+**主要成果**
+- YOLOv5 检测准确率 **89.69%**（自建数据集 3200 张，训练 200 轮）
+- 改进 A\* 在复杂场景中紧邻障碍物次数较传统 A\* 减少 **89.7%**（29 → 3）
+- 30 任务点 TSP 路径冗余减少 **16.8%**；多车 PSO 求解误差 < **9.4%**，较 CPLEX 耗时降低 **90%+**
+- VNS 处理双向取送约束，较传统模式节约成本约 **20%**
+
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.10 — 至今</div><img src='images/500x300.png' alt="project" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**融合视觉语言大模型的机器人导航与抓取关键技术研究**（核心成员）
+
+*崔世耀副教授课题组 · 校级大学生创新创业项目*
+
+融合 **CLIP、SAM2、Llama2** 等多模态大模型与具身智能算法，研究自然语言交互导航与低成本抓取数据增强。
+
+**主要成果**
+- **IVLMap**：实例级视觉语言地图，Matterport3D 导航成功率较 VLMap 基线提升 **15%**
+- **ROSGPT**：语音指令转可执行代码，真实平台任务成功率最高 **85%**
+- **LeRobot-SAM2**：抓取数据增强框架，ACT 成功率最高 **80%**，较基线提升 **15%–20%**，采集成本降低 **2 倍**以上
+
+</div>
+</div>
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+
+**累计获奖：国家级 12 项；省部级 3 项；校级 2 项**
+
+## 程序设计竞赛（ACM / CCPC）
+
+- *2026*: ACM-ICPC 亚洲区域赛**决赛**银奖
+- *2025*: ACM-ICPC 西安、武汉区域赛**金奖** ×2
+- *2025*: CCPC 国赛济南站**金奖**、郑州站银奖
+- *2024*: CCPC 全国邀请赛（山东）银奖；ACM-ICPC 全国邀请赛（西安）银奖
+- 山东省大学生程序设计竞赛**省金** ×2
+
+## 其他国家级竞赛
+
+- *2025*: 蓝桥杯 C/C++ 程序设计大学 B 组**全国一等奖**
+- *2025*: 中国高校计算机大赛·团体程序设计天梯赛**全国一等奖**
+- *2024*: 睿抗机器人开发者大赛 CAIP 赛道**全国一等奖**
+- *2025*: 百度之星程序设计大赛人才专项**国金奖**、国赛**银奖**
+
+## 在校荣誉
+
+- 省部级大学生创新创业项目（主持/核心参与）
+- 校级大学生创新创业项目
+- 校**一等奖学金**
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2023.09 — 2027.06（在读）*, **济南大学**, 通信工程
+  - 平均绩点：**4.79 / 5** | 专业排名：**3 / 86**
+  - CET-4: 485；CET-6: 434
+  - 代表性课程：高等数学(一)(100)、概率论与数理统计 A(100)、复变函数与积分变换(100)、程序设计基础(99)、线性代数与空间解析几何(99)

@@ -270,6 +270,6 @@ We address low recognition accuracy, unsafe path planning, and inefficient multi
 - *Sep 2023 — Jun 2027 (Expected)*, **University of Jinan**, Communication Engineering
   - GPA: **4.79/5** | Rank: **3/86**
 
-- *Sep 2020 — Jun 2023*, **Xiantao Middle School, Hubei** (湖北省仙桃中学)
+- *Sep 2020 — Jun 2023*, **Hubei Xiantao Middle School** (湖北省仙桃中学)
 
 </div>

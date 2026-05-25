@@ -145,7 +145,7 @@ redirect_from:
 
 <span class='anchor' id='en-about-me'></span>
 
-I am **Yuanzhi Xiao (肖远志)**, an undergraduate in Communication Engineering at Jinan University.
+I am **Yuanzhi Xiao (肖远志)**, an undergraduate in Communication Engineering at University of Jinan.
 
 My research interests include **intelligent optimization**,  **computer vision**, and **embodied AI**.
 
@@ -205,7 +205,7 @@ Feel free to contact me at [xyz@stu.ujn.edu.cn](mailto:xyz@stu.ujn.edu.cn).
 - *May 26, 2024* 🎉 2024 CCPC National Invitational (Shandong) — **Silver**
 - *Apr 30, 2024* 2024 GPLT National Finals — **National Third Prize**
 - *Apr 29, 2024* 15th Lanqiao Cup C/C++ Shandong Provincial — **Provincial First Prize**
-- *Nov 2023* “Yuejun Cup” Jinan University 6th ACM Freshman Contest — **First Prize (Runner-up)**
+- *Nov 2023* “Yuejun Cup” University of Jinan 6th ACM Freshman Contest — **First Prize (Runner-up)**
 
 </div>
 
@@ -267,7 +267,7 @@ We address low recognition accuracy, unsafe path planning, and inefficient multi
 
 # 📖 Education
 
-- *Sep 2023 — Jun 2027 (Expected)*, **Jinan University**, Communication Engineering
+- *Sep 2023 — Jun 2027 (Expected)*, **University of Jinan**, Communication Engineering
   - GPA: **4.79/5** | Rank: **3/86**
 
 - *Sep 2020 — Jun 2023*, **Xiantao Middle School, Hubei** (湖北省仙桃中学)

@@ -10,7 +10,7 @@ url                      : "https://xuemanqwq.github.io"
 baseurl                  : ""
 title                    : "肖远志 Yuanzhi Xiao"
 description              : "济南大学通信工程专业本科生，研究方向包括智能优化、计算机视觉与具身智能。"
-description_en           : "Undergraduate in Communication Engineering at Jinan University. Research in intelligent optimization, computer vision, and embodied AI; national awards in ACM-ICPC, CCPC, Lanqiao Cup, and GPLT."
+description_en           : "Undergraduate in Communication Engineering at University of Jinan. Research in intelligent optimization, computer vision, and embodied AI; national awards in ACM-ICPC, CCPC, Lanqiao Cup, and GPLT."
 repository               : "xuemanqwq/xuemanqwq.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -28,7 +28,7 @@ author:
   name_en          : "Yuanzhi Xiao"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "济南大学 · 通信工程"
-  bio_en           : "Jinan University · Communication Engineering"
+  bio_en           : "University of Jinan · Communication Engineering"
   location         : "Jinan, China"
   employer         : "University of Jinan"
   pubmed           :

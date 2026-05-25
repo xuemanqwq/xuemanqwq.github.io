@@ -6,6 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
+url                      : "https://xuemanqwq.github.io"
+baseurl                  : ""
 title                    : "肖远志 Yuanzhi Xiao"
 description              : "济南大学通信工程专业本科生，研究方向包括智能优化、计算机视觉与具身智能。"
 description_en           : "Undergraduate in Communication Engineering at Jinan University. Research interests include intelligent optimization, computer vision, and embodied AI."

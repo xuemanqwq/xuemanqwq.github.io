@@ -26,7 +26,7 @@ redirect_from:
 
 # 🔬 Research Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.10 — 2025.10</div><img src='images/500x300.png' alt="project" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.10 — 2025.10</div><img src='{{ "/images/500x300.png" | relative_url }}' alt="project" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **融合视觉感知与群智能优化的无人分拣车路径规划与调度**（核心成员）
@@ -44,7 +44,7 @@ redirect_from:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.10 — 至今</div><img src='images/500x300.png' alt="project" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.10 — 至今</div><img src='{{ "/images/500x300.png" | relative_url }}' alt="project" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **融合视觉语言大模型的机器人导航与抓取关键技术研究**（核心成员）

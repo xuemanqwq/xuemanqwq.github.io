@@ -1,37 +1,27 @@
-{% if page.lang == 'en' %}
-  {% assign nav_links = site.data.navigation-en.main %}
-  {% assign home_url = '/en/#about-me' %}
-  {% assign home_label = 'Home' %}
-  {% assign lang_switch_url = '/' %}
-  {% assign lang_switch_label = '中文' %}
-  {% assign lang_current = 'EN' %}
-{% else %}
-  {% assign nav_links = site.data.navigation.main %}
-  {% assign home_url = '/#about-me' %}
-  {% assign home_label = '首页' %}
-  {% assign lang_switch_url = '/en/' %}
-  {% assign lang_switch_label = 'EN' %}
-  {% assign lang_current = '中文' %}
-{% endif %}
-
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ home_url | relative_url }}">{{ home_label }}</a></li>
-          {% for link in nav_links %}
-            <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+        <ul class="visible-links masthead__nav masthead__nav--zh">
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">首页</a></li>
+          {% for link in site.data.navigation.main %}
+            <li class="masthead__menu-item"><a href="{{ link.url | replace: '/#', '#' }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+        <ul class="masthead__nav masthead__nav--en">
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Home</a></li>
+          {% for link in site.data.navigation-en.main %}
+            <li class="masthead__menu-item"><a href="{{ link.url | replace: '/#', '#' }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
-    <div class="masthead__lang-switch" role="navigation" aria-label="Language">
-      <span class="masthead__lang-link masthead__lang-link--active" aria-current="page">{{ lang_current }}</span>
+    <div class="masthead__lang-switch" role="group" aria-label="Language">
+      <button type="button" class="masthead__lang-btn masthead__lang-btn--active" data-lang="zh" aria-pressed="true">中文</button>
       <span class="masthead__lang-divider" aria-hidden="true">|</span>
-      <a href="{{ lang_switch_url | relative_url }}" class="masthead__lang-link" hreflang="{% if page.lang == 'en' %}zh-CN{% else %}en{% endif %}">{{ lang_switch_label }}</a>
+      <button type="button" class="masthead__lang-btn" data-lang="en" aria-pressed="false">EN</button>
     </div>
   </div>
 </div>

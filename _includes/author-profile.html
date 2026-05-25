@@ -1,13 +1,6 @@
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
-{% if page.lang == 'en' %}
-  {% assign profile_description = site.description_en | default: site.description %}
-  {% assign profile_bio = author.bio_en | default: author.bio %}
-{% else %}
-  {% assign profile_description = site.description %}
-  {% assign profile_bio = author.bio %}
-{% endif %}
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
@@ -17,14 +10,18 @@
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
-    {% if profile_bio %}<p class="author__bio">{{ profile_bio }}</p>{% endif %}
+    {% if author.bio %}<p class="author__bio author__bio--zh">{{ author.bio }}</p>{% endif %}
+    {% if author.bio_en %}<p class="author__bio author__bio--en">{{ author.bio_en }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      {% if profile_description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ profile_description }}</div></li>
+      {% if site.description %}
+        <li class="author__desc--zh"><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
+      {% endif %}
+      {% if site.description_en %}
+        <li class="author__desc--en"><div style="white-space: normal; margin-bottom: 1em;">{{ site.description_en }}</div></li>
       {% endif %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>

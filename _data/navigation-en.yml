@@ -1,16 +1,16 @@
-# English navigation
+# English navigation (same page, no URL change)
 main:
   - title: "About"
-    url: "/en/#about-me"
+    url: "/#about-me"
 
   - title: "News"
-    url: "/en/#-news"
+    url: "/#en-news"
 
   - title: "Research"
-    url: "/en/#-research-projects"
+    url: "/#en-research-projects"
 
   - title: "Awards"
-    url: "/en/#-honors-and-awards"
+    url: "/#en-honors-and-awards"
 
   - title: "Education"
-    url: "/en/#-educations"
+    url: "/#en-educations"

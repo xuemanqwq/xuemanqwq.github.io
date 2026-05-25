@@ -1,0 +1,75 @@
+<style>
+  .lang-panel--en { display: none; }
+  html.site-lang-en .lang-panel--zh { display: none; }
+  html.site-lang-en .lang-panel--en { display: block; }
+  .masthead__nav--en { display: none; }
+  html.site-lang-en .author__bio--zh,
+  html.site-lang-en .author__desc--zh { display: none; }
+  html.site-lang-en .author__bio--en,
+  html.site-lang-en .author__desc--en { display: block; }
+  .author__bio--en,
+  .author__desc--en { display: none; }
+  .masthead__lang-btn {
+    background: none;
+    border: none;
+    padding: 0.35rem 0.25rem;
+    font: inherit;
+    font-size: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    color: #7a8288;
+  }
+  .masthead__lang-btn--active {
+    color: #eeac00;
+    cursor: default;
+    pointer-events: none;
+  }
+</style>
+<script>
+  (function () {
+    function setLang(lang) {
+      var isEn = lang === "en";
+      document.documentElement.classList.toggle("site-lang-en", isEn);
+      document.documentElement.lang = isEn ? "en" : "zh-CN";
+
+      var navZh = document.querySelector(".masthead__nav--zh");
+      var navEn = document.querySelector(".masthead__nav--en");
+      if (navZh && navEn) {
+        navZh.classList.toggle("visible-links", !isEn);
+        navZh.style.display = isEn ? "none" : "";
+        navEn.classList.toggle("visible-links", isEn);
+        navEn.style.display = isEn ? "" : "none";
+      }
+
+      document.querySelectorAll(".masthead__lang-btn").forEach(function (btn) {
+        var active = btn.getAttribute("data-lang") === lang;
+        btn.classList.toggle("masthead__lang-btn--active", active);
+        btn.setAttribute("aria-pressed", active ? "true" : "false");
+      });
+
+      try { localStorage.setItem("site-lang", lang); } catch (e) {}
+
+      var url = new URL(window.location.href);
+      if (isEn) { url.searchParams.set("lang", "en"); }
+      else { url.searchParams.delete("lang"); }
+      history.replaceState(null, "", url.pathname + url.search + url.hash);
+
+      if (window.jQuery) {
+        jQuery(window).trigger("resize");
+      }
+    }
+
+    document.addEventListener("click", function (e) {
+      var btn = e.target.closest(".masthead__lang-btn");
+      if (!btn) return;
+      e.preventDefault();
+      setLang(btn.getAttribute("data-lang"));
+    });
+
+    var params = new URLSearchParams(window.location.search);
+    var saved = "";
+    try { saved = localStorage.getItem("site-lang") || ""; } catch (e) {}
+    var initial = params.get("lang") === "en" || saved === "en" ? "en" : "zh";
+    setLang(initial);
+  })();
+</script>

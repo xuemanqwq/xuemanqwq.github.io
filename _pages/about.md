@@ -16,7 +16,7 @@ redirect_from:
 
 研究兴趣包括**智能优化算法**、**计算机视觉**与**具身智能**。
 
-先前在崔世耀副教授课题组参与无人分拣车路径规划与调度、融合视觉语言大模型的机器人导航与抓取等科研项目。竞赛方面专注于算法与程序设计，获ACM-ICPC压轴区域赛金奖、CCPC国赛金奖、蓝桥杯全国一等奖、天梯赛全国一等奖等多项**国家级**奖项。
+先前在崔世耀副教授课题组参与无人分拣车路径规划与调度、融合视觉语言大模型的机器人导航与抓取等科研项目。竞赛方面专注于算法与程序设计，获ACM-ICPC亚洲区域赛金奖、CCPC国赛金奖、蓝桥杯全国一等奖、天梯赛全国一等奖等多项**国家级**奖项。
 
 欢迎通过邮件 [xyz@stu.ujn.edu.cn](mailto:xyz@stu.ujn.edu.cn) 与我联系。
 
@@ -139,7 +139,7 @@ redirect_from:
 
 I am **Yuanzhi Xiao (肖远志)**, an undergraduate in Communication Engineering at Jinan University.
 
-My research interests include **intelligent optimization**, **computer vision**, and **embodied AI**.
+My research interests include **intelligent optimization**,  **computer vision**, and **embodied AI**.
 
 I previously worked as a core member on research projects in unmanned sorting vehicle path planning and scheduling, and robot navigation and grasping with vision-language foundation models under Assoc. Prof. Cui Shiyao's group. In competitive programming, I focus on algorithms and design, and have won multiple **national-level** awards, including ACM-ICPC regional **gold** medals, CCPC national **gold**, Lanqiao Cup national first prize, and GPLT national first prize.
 

@@ -9,7 +9,14 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{% if author.name_en %}{{ author.name }} {{ author.name_en }}{% else %}{{ author.name }}{% endif %}</h3>
+    <h3 class="author__name">
+      {% if author.name_en %}
+        <span class="author__name-line">{{ author.name }}</span>
+        <span class="author__name-line">{{ author.name_en }}</span>
+      {% else %}
+        <span class="author__name-line">{{ author.name }}</span>
+      {% endif %}
+    </h3>
     {% if author.bio %}<p class="author__bio author__bio--zh">{{ author.bio }}</p>{% endif %}
     {% if author.bio_en %}<p class="author__bio author__bio--en">{{ author.bio_en }}</p>{% endif %}
   </div>

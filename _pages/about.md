@@ -20,6 +20,8 @@ redirect_from:
 
 欢迎通过邮件 [xyz@stu.ujn.edu.cn](mailto:xyz@stu.ujn.edu.cn) 与我联系。
 
+<span class='anchor' id='news'></span>
+
 # 🔥 News
 
 <div class="news-scroll-wrap" markdown="0">
@@ -76,6 +78,8 @@ redirect_from:
 
 </div>
 
+<span class='anchor' id='research-projects'></span>
+
 # 🔬 Research Projects
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.10 — 至今</div><img src='{{ "/images/500x300.png" | relative_url }}' alt="project" width="100%"></div></div>
@@ -113,6 +117,8 @@ redirect_from:
 </div>
 </div>
 
+<span class='anchor' id='honors-and-awards'></span>
+
 # 🎖 Honors and Awards
 
 - *2026.5* 山东省大学生程序设计竞赛**省金奖（亚军）**
@@ -123,6 +129,8 @@ redirect_from:
 - *2025* 百度之星·程序设计大赛人才专项赛道 **国金奖**、国赛 **国银奖**
 - *2024* 睿抗机器人开发者大赛（RAICOM）CAIP赛道 **全国一等奖**
 - 省部级/校级大创项目（核心成员）、校**一等奖学金**、校优秀学生
+
+<span class='anchor' id='educations'></span>
 
 # 📖 Educations
 
@@ -135,7 +143,7 @@ redirect_from:
 
 <div class="lang-panel lang-panel--en" markdown="1">
 
-<span class='anchor' id='about-me'></span>
+<span class='anchor' id='en-about-me'></span>
 
 I am **Yuanzhi Xiao (肖远志)**, an undergraduate in Communication Engineering at Jinan University.
 

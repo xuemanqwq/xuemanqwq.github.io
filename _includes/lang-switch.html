@@ -59,17 +59,44 @@
       }
     }
 
+    function syncLangFromHash() {
+      var hash = window.location.hash;
+      if (!hash) return;
+      if (hash.indexOf("#en-") === 0 || hash === "#en-about-me") {
+        setLang("en");
+      } else {
+        setLang("zh");
+      }
+    }
+
     document.addEventListener("click", function (e) {
       var btn = e.target.closest(".masthead__lang-btn");
-      if (!btn) return;
-      e.preventDefault();
-      setLang(btn.getAttribute("data-lang"));
-    });
+      if (btn) {
+        e.preventDefault();
+        setLang(btn.getAttribute("data-lang"));
+        return;
+      }
+
+      var navLink = e.target.closest(".masthead__nav a[href^='#']");
+      if (!navLink) return;
+      var nav = navLink.closest(".masthead__nav");
+      if (nav && nav.classList.contains("masthead__nav--en")) {
+        setLang("en");
+      } else if (nav && nav.classList.contains("masthead__nav--zh")) {
+        setLang("zh");
+      }
+    }, true);
+
+    window.addEventListener("hashchange", syncLangFromHash);
 
     var params = new URLSearchParams(window.location.search);
     var saved = "";
     try { saved = localStorage.getItem("site-lang") || ""; } catch (e) {}
     var initial = params.get("lang") === "en" || saved === "en" ? "en" : "zh";
-    setLang(initial);
+    if (window.location.hash) {
+      syncLangFromHash();
+    } else {
+      setLang(initial);
+    }
   })();
 </script>

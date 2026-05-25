@@ -1,7 +1,7 @@
 # English navigation (same page, no URL change)
 main:
   - title: "About"
-    url: "/#about-me"
+    url: "/#en-about-me"
 
   - title: "News"
     url: "/#en-news"

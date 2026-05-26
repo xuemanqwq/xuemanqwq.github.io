@@ -83,7 +83,7 @@ redirect_from:
 
 # 🔬 Research Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.10 — 至今</div><img src='{{ "/images/500x300.png" | relative_url }}' alt="project" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.10 — 至今</div><img src='{{ "/images/research/pic2.png" | relative_url }}' alt="融合视觉语言大模型的机器人导航与抓取" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **融合视觉语言大模型的机器人导航与抓取关键技术研究**（核心成员）
@@ -100,7 +100,7 @@ redirect_from:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.10 — 2025.10</div><img src='{{ "/images/500x300.png" | relative_url }}' alt="project" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2024.10 — 2025.10</div><img src='{{ "/images/research/pic1.png" | relative_url }}' alt="无人分拣车路径规划与调度" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **融合视觉感知与群智能优化的无人分拣车路径规划与调度**（核心成员）
@@ -217,7 +217,7 @@ Feel free to contact me at [xyz@stu.ujn.edu.cn](mailto:xyz@stu.ujn.edu.cn).
 
 # 🔬 Research Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Oct 2025 — Present</div><img src='{{ "/images/500x300.png" | relative_url }}' alt="project" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Oct 2025 — Present</div><img src='{{ "/images/research/pic2.png" | relative_url }}' alt="Robot navigation and grasping with vision-language models" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Robot Navigation and Grasping with Vision-Language Foundation Models** (Core Member)
@@ -234,7 +234,7 @@ We integrate multimodal models (**CLIP, SAM2, Llama2**) with embodied intelligen
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Oct 2024 — Oct 2025</div><img src='{{ "/images/500x300.png" | relative_url }}' alt="project" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Oct 2024 — Oct 2025</div><img src='{{ "/images/research/pic1.png" | relative_url }}' alt="Unmanned sorting vehicle path planning and scheduling" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Vision Perception and Swarm Intelligence for Unmanned Sorting Vehicle Path Planning and Scheduling** (Core Member)

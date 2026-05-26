@@ -83,7 +83,7 @@ redirect_from:
 
 # 🔬 Research Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.10 — 至今</div><img src='{{ "/images/research/pic2.png" | relative_url }}' alt="融合视觉语言大模型的机器人导航与抓取" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.10 — 2026.3</div><img src='{{ "/images/research/pic2.png" | relative_url }}' alt="融合视觉语言大模型的机器人导航与抓取" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **融合视觉语言大模型的机器人导航与抓取关键技术研究**（核心成员）
@@ -217,7 +217,7 @@ Feel free to contact me at [xyz@stu.ujn.edu.cn](mailto:xyz@stu.ujn.edu.cn).
 
 # 🔬 Research Projects
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Oct 2025 — Present</div><img src='{{ "/images/research/pic2.png" | relative_url }}' alt="Robot navigation and grasping with vision-language models" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Oct 2025 — Mar 2026</div><img src='{{ "/images/research/pic2.png" | relative_url }}' alt="Robot navigation and grasping with vision-language models" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Robot Navigation and Grasping with Vision-Language Foundation Models** (Core Member)

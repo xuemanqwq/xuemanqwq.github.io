@@ -1,24 +1,21 @@
 /*
- * Override greedy nav for bilingual single-list masthead.
- * Loaded after main.min.js; replaces global updateNav().
+ * Bilingual masthead nav: mobile = hamburger + vertical menu; desktop = greedy overflow.
  */
 (function ($) {
+  "use strict";
+
+  var MOBILE_MQ = window.matchMedia("(max-width: 924px)");
   var $nav = $("#site-nav");
-  var $btn = $("#site-nav button");
+  var $btn = $("#site-nav > button").first();
   var $hlinks = $("#site-nav .hidden-links");
   var breaks = [];
 
-  function getVisibleLinks() {
-    return $("#site-nav .visible-links");
+  function isMobile() {
+    return MOBILE_MQ.matches;
   }
 
-  function restoreGreedyNav() {
-    var $vlinks = getVisibleLinks();
-    $hlinks.children().appendTo($vlinks);
-    breaks = [];
-    $btn.addClass("hidden");
-    $hlinks.addClass("hidden");
-    $btn.removeClass("close");
+  function getVisibleLinks() {
+    return $("#site-nav .visible-links");
   }
 
   function isLangVisibleItem($li) {
@@ -28,58 +25,101 @@
     return true;
   }
 
-  function visibleNavItems($vlinks) {
-    return $vlinks.children("li").filter(function () {
-      var $li = $(this);
-      return isLangVisibleItem($li) && $li.is(":visible");
+  function langItems($container) {
+    return $container.children("li").filter(function () {
+      return isLangVisibleItem($(this));
     });
   }
 
-  function updateNav() {
-    var $vlinks = getVisibleLinks();
-    var $items = visibleNavItems($vlinks);
-    var availableSpace = $btn.hasClass("hidden")
-      ? $nav.width()
-      : $nav.width() - $btn.width() - 30;
+  function closeMenu() {
+    $hlinks.addClass("hidden");
+    $btn.removeClass("close");
+  }
 
-    if ($vlinks.width() > availableSpace && $items.length > 0) {
+  function restoreAllItems() {
+    var $vlinks = getVisibleLinks();
+    $hlinks.children().appendTo($vlinks);
+    breaks = [];
+    closeMenu();
+  }
+
+  function layoutMobileNav() {
+    restoreAllItems();
+    var $vlinks = getVisibleLinks();
+    var $items = langItems($vlinks);
+    if ($items.length) {
+      $items.appendTo($hlinks);
+    }
+    $btn.removeClass("hidden");
+    closeMenu();
+  }
+
+  function layoutDesktopNav() {
+    restoreAllItems();
+    var $vlinks = getVisibleLinks();
+    var availableSpace = $nav.width() - $btn.width() - 30;
+
+    function overflow() {
+      return $vlinks.width() > availableSpace;
+    }
+
+    while (overflow()) {
+      var $items = langItems($vlinks);
+      if (!$items.length) break;
       breaks.push($vlinks.width());
       $items.last().prependTo($hlinks);
+      $btn.removeClass("hidden");
+    }
 
-      if ($btn.hasClass("hidden")) {
-        $btn.removeClass("hidden");
-      }
-    } else {
-      if (breaks.length && availableSpace > breaks[breaks.length - 1]) {
-        $hlinks.children().first().appendTo($vlinks);
-        breaks.pop();
-      }
-
-      if (breaks.length < 1) {
-        $btn.addClass("hidden");
-        $hlinks.addClass("hidden");
-      }
+    if (breaks.length < 1) {
+      $btn.addClass("hidden");
+      closeMenu();
     }
 
     $btn.attr("count", breaks.length);
+  }
 
-    if ($vlinks.width() > availableSpace) {
-      updateNav();
+  function syncNavLayout() {
+    if (isMobile()) {
+      layoutMobileNav();
+    } else {
+      layoutDesktopNav();
     }
   }
 
-  window.greedyNavRestore = restoreGreedyNav;
-  window.updateNav = updateNav;
+  window.greedyNavRestore = restoreAllItems;
+  window.greedyNavUpdate = syncNavLayout;
+  window.updateNav = syncNavLayout;
 
-  $btn.off("click.greedyNav").on("click.greedyNav", function () {
+  $btn.attr("type", "button");
+  $btn.attr("aria-label", "Toggle navigation");
+  $btn.attr("aria-expanded", "false");
+
+  $btn.off("click").on("click", function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    if (!isMobile() && breaks.length < 1) return;
+    var open = $hlinks.hasClass("hidden");
     $hlinks.toggleClass("hidden");
-    $(this).toggleClass("close");
+    $btn.toggleClass("close");
+    $btn.attr("aria-expanded", open ? "true" : "false");
   });
 
-  $(window).off("resize.greedyNav").on("resize.greedyNav", updateNav);
+  $(window).off("resize.greedyNav").on("resize.greedyNav", syncNavLayout);
+
+  if (MOBILE_MQ.addEventListener) {
+    MOBILE_MQ.addEventListener("change", syncNavLayout);
+  }
+
+  $(document).on("click.greedyNav", function (e) {
+    if ($(e.target).closest("#site-nav").length) return;
+    if (isMobile() || breaks.length > 0) {
+      closeMenu();
+      $btn.attr("aria-expanded", "false");
+    }
+  });
 
   $(function () {
-    restoreGreedyNav();
-    updateNav();
+    syncNavLayout();
   });
 })(jQuery);

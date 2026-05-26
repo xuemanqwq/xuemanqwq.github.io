@@ -2,14 +2,8 @@
   .lang-panel--en { display: none; }
   html.site-lang-en .lang-panel--zh { display: none; }
   html.site-lang-en .lang-panel--en { display: block; }
-  .masthead__nav-item--en { display: none !important; }
+  html:not(.site-lang-en) .masthead__nav-item--en { display: none !important; }
   html.site-lang-en .masthead__nav-item--zh { display: none !important; }
-  html.site-lang-en .greedy-nav .visible-links > .masthead__nav-item--en {
-    display: table-cell !important;
-  }
-  .greedy-nav .hidden-links .masthead__nav-item {
-    display: block !important;
-  }
   html.site-lang-en .author__bio--zh,
   html.site-lang-en .author__desc--zh { display: none; }
   html.site-lang-en .author__bio--en,
@@ -61,12 +55,9 @@
       else { url.searchParams.delete("lang"); }
       history.replaceState(null, "", url.pathname + url.search + url.hash);
 
-      if (window.greedyNavRestore && window.greedyNavUpdate) {
-        window.greedyNavRestore();
+      if (window.greedyNavUpdate) {
         requestAnimationFrame(function () {
-          requestAnimationFrame(function () {
-            window.greedyNavUpdate();
-          });
+          window.greedyNavUpdate();
         });
       }
     }

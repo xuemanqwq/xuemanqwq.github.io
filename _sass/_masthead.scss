@@ -105,6 +105,8 @@
 
 /* 折叠菜单内始终纵向排列（中英文一致） */
 .greedy-nav .hidden-links {
+  z-index: 30;
+
   li.masthead__nav-item {
     display: block !important;
     width: 100%;
@@ -112,6 +114,26 @@
 
   a {
     white-space: normal;
+  }
+}
+
+/* 手机/窄屏：统一汉堡菜单 + 向下展开 */
+@include breakpoint(max-width ($large - 0.0625em)) {
+  .greedy-nav {
+    button,
+    button.hidden {
+      display: block !important;
+      visibility: visible !important;
+    }
+
+    .visible-links {
+      display: none !important;
+    }
+
+    .hidden-links:not(.hidden) {
+      display: block !important;
+      visibility: visible !important;
+    }
   }
 }
 

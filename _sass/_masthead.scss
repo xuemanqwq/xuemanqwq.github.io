@@ -118,7 +118,7 @@
 }
 
 /* 手机/窄屏：统一汉堡菜单 + 向下展开 */
-@include breakpoint(max-width ($large - 0.0625em)) {
+@include breakpoint(max-width $large) {
   .greedy-nav {
     button,
     button.hidden {

@@ -53,7 +53,7 @@ redirect_from:
 - *2025.5.8* 第七届传智杯全国IT技能大赛程序设计挑战赛B组 **国一等奖**
 - *2025.5.6* 2025年中国高校计算机大赛-团体程序设计天梯赛全国总决赛 **国一等奖**
 - *2025.5.6* 2025年第十二届“大唐杯”全国大学生新一代信息通信技术大赛完赛
-- *2025.5.4* ACM-ICPC 国际大学生程序设计竞赛全国邀请赛（西安）**国银奖**
+- *2025.5.4* ACM-ICPC国际大学生程序设计竞赛全国邀请赛（西安）**国银奖**
 - *2025.5* 2025年山东省大学生程序设计竞赛 **省金奖**
 - *2025.3.23* 第七届传智杯全国IT技能大赛程序设计挑战赛B组 **省一等奖**
 - *2025.2* 第八届牛客寒假算法基础集训营 **一等奖**
@@ -187,6 +187,7 @@ Feel free to contact me at [xyz@stu.ujn.edu.cn](mailto:xyz@stu.ujn.edu.cn).
 - *May 8, 2025* 7th ICTPC Programming Challenge Group B — **National First Prize**
 - *May 6, 2025* 2025 GPLT National Finals — **National First Prize**
 - *May 6, 2025* 12th Datang Cup National ICT Competition — completed
+- *May 4, 2025* 🎉 ACM-ICPC National Invitational (Xi'an) — **Silver**
 - *May 2025* 2025 Shandong Collegiate Programming Contest — **Provincial Gold**
 - *Mar 23, 2025* 7th ICTPC Programming Challenge Group B — **Provincial First Prize**
 - *Feb 2025* 8th Nowcoder Winter Algorithm Training Camp — **First Prize**

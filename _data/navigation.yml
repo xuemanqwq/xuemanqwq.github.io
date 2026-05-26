@@ -14,3 +14,6 @@ main:
 
   - title: "教育经历"
     url: "/#educations"
+
+  - title: "照片"
+    url: "/photos/"

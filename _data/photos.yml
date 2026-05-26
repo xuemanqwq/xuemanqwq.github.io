@@ -1,0 +1,5 @@
+# 在此添加照片：将图片放入 images/photos/，并取消下面示例的注释或按格式新增条目
+items:
+  # - file: images/photos/example.jpg
+  #   caption_zh: "照片说明"
+  #   caption_en: "Photo caption"

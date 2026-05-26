@@ -1,0 +1,35 @@
+<div class="photos-page">
+  <p class="photos-page__back photos-page__back--zh">
+    <a href="{{ '/' | relative_url }}#about-me">← 返回主页</a>
+  </p>
+  <p class="photos-page__back photos-page__back--en">
+    <a href="{{ '/' | relative_url }}#en-about-me">← Back to home</a>
+  </p>
+
+  <div class="lang-panel lang-panel--zh" markdown="1">
+# 📷 照片
+  </div>
+
+  <div class="lang-panel lang-panel--en" markdown="1">
+# 📷 Photos
+  </div>
+
+  {% if site.data.photos.items and site.data.photos.items.size > 0 %}
+    <div class="photos-grid">
+      {% for photo in site.data.photos.items %}
+        <figure class="photos-grid__item">
+          <a href="{{ photo.file | relative_url }}" class="photos-grid__link image-popup" title="{% if photo.caption_zh %}{{ photo.caption_zh }}{% endif %}">
+            <img src="{{ photo.file | relative_url }}" alt="{% if photo.caption_zh %}{{ photo.caption_zh }}{% else %}photo{% endif %}" loading="lazy">
+          </a>
+          {% if photo.caption_zh or photo.caption_en %}
+            <figcaption class="photos-grid__caption photos-grid__caption--zh">{% if photo.caption_zh %}{{ photo.caption_zh }}{% endif %}</figcaption>
+            <figcaption class="photos-grid__caption photos-grid__caption--en">{% if photo.caption_en %}{{ photo.caption_en }}{% endif %}</figcaption>
+          {% endif %}
+        </figure>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="photos-page__empty photos-page__empty--zh">暂无照片。请将图片放入 <code>images/photos/</code>，并在 <code>_data/photos.yml</code> 中添加条目。</p>
+    <p class="photos-page__empty photos-page__empty--en">No photos yet. Add images under <code>images/photos/</code> and list them in <code>_data/photos.yml</code>.</p>
+  {% endif %}
+</div>

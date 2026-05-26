@@ -21,15 +21,22 @@
     $btn.removeClass("close");
   }
 
+  function visibleNavItems($vlinks) {
+    return $vlinks.children("li").filter(function () {
+      return $(this).css("display") !== "none";
+    });
+  }
+
   function updateNav() {
     var $vlinks = getVisibleLinks();
+    var $items = visibleNavItems($vlinks);
     var availableSpace = $btn.hasClass("hidden")
       ? $nav.width()
       : $nav.width() - $btn.width() - 30;
 
-    if ($vlinks.width() > availableSpace) {
+    if ($vlinks.width() > availableSpace && $items.length > 0) {
       breaks.push($vlinks.width());
-      $vlinks.children(":visible").last().prependTo($hlinks);
+      $items.last().prependTo($hlinks);
 
       if ($btn.hasClass("hidden")) {
         $btn.removeClass("hidden");
@@ -55,6 +62,13 @@
 
   window.greedyNavRestore = restoreGreedyNav;
   window.updateNav = updateNav;
+
+  $btn.off("click.greedyNav").on("click.greedyNav", function () {
+    $hlinks.toggleClass("hidden");
+    $(this).toggleClass("close");
+  });
+
+  $(window).off("resize.greedyNav").on("resize.greedyNav", updateNav);
 
   $(function () {
     restoreGreedyNav();

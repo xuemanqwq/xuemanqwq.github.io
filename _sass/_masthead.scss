@@ -103,4 +103,16 @@
   }
 }
 
+/* 折叠菜单内始终纵向排列（中英文一致） */
+.greedy-nav .hidden-links {
+  li.masthead__nav-item {
+    display: block !important;
+    width: 100%;
+  }
+
+  a {
+    white-space: normal;
+  }
+}
+
 

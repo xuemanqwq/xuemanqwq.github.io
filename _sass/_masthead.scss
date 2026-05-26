@@ -117,22 +117,65 @@
   }
 }
 
-/* 手机/窄屏：统一汉堡菜单 + 向下展开 */
+/* 手机/窄屏：汉堡按钮 + 向下展开（须保留导航区域高度） */
 @include breakpoint(max-width $large) {
+  .masthead__menu {
+    flex: 1 1 auto;
+    min-width: 48px;
+  }
+
   .greedy-nav {
-    button,
-    button.hidden {
-      display: block !important;
+    position: relative;
+    min-height: 44px;
+    min-width: 48px;
+    padding-right: 48px;
+
+    > button {
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
       visibility: visible !important;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 44px !important;
+      height: 44px !important;
+      min-width: 44px;
+      min-height: 44px;
+      z-index: 20;
     }
 
     .visible-links {
-      display: none !important;
+      position: absolute !important;
+      width: 1px !important;
+      height: 1px !important;
+      padding: 0 !important;
+      margin: -1px !important;
+      overflow: hidden !important;
+      clip: rect(0, 0, 0, 0) !important;
+      border: 0 !important;
     }
 
-    .hidden-links:not(.hidden) {
-      display: block !important;
-      visibility: visible !important;
+    .hidden-links {
+      left: 0;
+      right: 0;
+      width: auto;
+      max-width: none;
+      margin-top: 8px;
+
+      &.hidden {
+        display: none !important;
+        visibility: hidden !important;
+      }
+
+      &:not(.hidden) {
+        display: block !important;
+        visibility: visible !important;
+      }
+
+      .masthead__menu-home-item {
+        display: block !important;
+      }
     }
   }
 }

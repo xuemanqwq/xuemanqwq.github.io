@@ -50,12 +50,14 @@
     if ($items.length) {
       $items.appendTo($hlinks);
     }
+    $nav.addClass("greedy-nav--mobile");
     $btn.removeClass("hidden");
     closeMenu();
   }
 
   function layoutDesktopNav() {
     restoreAllItems();
+    $nav.removeClass("greedy-nav--mobile");
     var $vlinks = getVisibleLinks();
     var availableSpace = $nav.width() - $btn.width() - 30;
 

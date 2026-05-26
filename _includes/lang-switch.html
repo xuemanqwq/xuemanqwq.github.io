@@ -4,6 +4,11 @@
   html.site-lang-en .lang-panel--en { display: block; }
   html:not(.site-lang-en) .masthead__nav-item--en { display: none !important; }
   html.site-lang-en .masthead__nav-item--zh { display: none !important; }
+  /* 下拉菜单里的当前语言项必须显示为块级 */
+  html:not(.site-lang-en) .greedy-nav .hidden-links .masthead__nav-item--zh,
+  html.site-lang-en .greedy-nav .hidden-links .masthead__nav-item--en {
+    display: block !important;
+  }
   html.site-lang-en .author__bio--zh,
   html.site-lang-en .author__desc--zh { display: none; }
   html.site-lang-en .author__bio--en,

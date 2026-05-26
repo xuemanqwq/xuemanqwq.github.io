@@ -21,9 +21,17 @@
     $btn.removeClass("close");
   }
 
+  function isLangVisibleItem($li) {
+    var isEn = document.documentElement.classList.contains("site-lang-en");
+    if ($li.hasClass("masthead__nav-item--en")) return isEn;
+    if ($li.hasClass("masthead__nav-item--zh")) return !isEn;
+    return true;
+  }
+
   function visibleNavItems($vlinks) {
     return $vlinks.children("li").filter(function () {
-      return $(this).css("display") !== "none";
+      var $li = $(this);
+      return isLangVisibleItem($li) && $li.is(":visible");
     });
   }
 

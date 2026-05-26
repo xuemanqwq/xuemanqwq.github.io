@@ -131,10 +131,9 @@
     padding-right: 48px;
 
     > button {
-      display: flex !important;
-      align-items: center;
-      justify-content: center;
+      display: block !important;
       visibility: visible !important;
+      opacity: 1 !important;
       position: absolute;
       top: 0;
       right: 0;
@@ -143,17 +142,12 @@
       min-width: 44px;
       min-height: 44px;
       z-index: 20;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
     }
 
     .visible-links {
-      position: absolute !important;
-      width: 1px !important;
-      height: 1px !important;
-      padding: 0 !important;
-      margin: -1px !important;
-      overflow: hidden !important;
-      clip: rect(0, 0, 0, 0) !important;
-      border: 0 !important;
+      display: none !important;
     }
 
     .hidden-links {
@@ -162,15 +156,14 @@
       width: auto;
       max-width: none;
       margin-top: 8px;
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
 
-      &.hidden {
-        display: none !important;
-        visibility: hidden !important;
-      }
-
-      &:not(.hidden) {
+      &.is-open {
         display: block !important;
         visibility: visible !important;
+        opacity: 1 !important;
       }
 
       .masthead__menu-home-item {

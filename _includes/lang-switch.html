@@ -2,7 +2,9 @@
   .lang-panel--en { display: none; }
   html.site-lang-en .lang-panel--zh { display: none; }
   html.site-lang-en .lang-panel--en { display: block; }
-  .masthead__nav--en { display: none; }
+  .masthead__nav-item--en { display: none !important; }
+  html.site-lang-en .masthead__nav-item--zh { display: none !important; }
+  html.site-lang-en .masthead__nav-item--en { display: table-cell !important; }
   html.site-lang-en .author__bio--zh,
   html.site-lang-en .author__desc--zh { display: none; }
   html.site-lang-en .author__bio--en,
@@ -32,15 +34,6 @@
       document.documentElement.classList.toggle("site-lang-en", isEn);
       document.documentElement.lang = isEn ? "en" : "zh-CN";
 
-      var navZh = document.querySelector(".masthead__nav--zh");
-      var navEn = document.querySelector(".masthead__nav--en");
-      if (navZh && navEn) {
-        navZh.classList.toggle("visible-links", !isEn);
-        navZh.style.display = isEn ? "none" : "";
-        navEn.classList.toggle("visible-links", isEn);
-        navEn.style.display = isEn ? "" : "none";
-      }
-
       document.querySelectorAll(".masthead__lang-btn").forEach(function (btn) {
         var active = btn.getAttribute("data-lang") === lang;
         btn.classList.toggle("masthead__lang-btn--active", active);
@@ -54,7 +47,8 @@
       else { url.searchParams.delete("lang"); }
       history.replaceState(null, "", url.pathname + url.search + url.hash);
 
-      if (window.jQuery) {
+      if (window.jQuery && window.greedyNavRestore) {
+        window.greedyNavRestore();
         jQuery(window).trigger("resize");
       }
     }
@@ -79,10 +73,10 @@
 
       var navLink = e.target.closest(".masthead__nav a[href^='#']");
       if (!navLink) return;
-      var nav = navLink.closest(".masthead__nav");
-      if (nav && nav.classList.contains("masthead__nav--en")) {
+      var navItem = navLink.closest(".masthead__nav-item");
+      if (navItem && navItem.classList.contains("masthead__nav-item--en")) {
         setLang("en");
-      } else if (nav && nav.classList.contains("masthead__nav--zh")) {
+      } else if (navItem && navItem.classList.contains("masthead__nav-item--zh")) {
         setLang("zh");
       }
     }, true);

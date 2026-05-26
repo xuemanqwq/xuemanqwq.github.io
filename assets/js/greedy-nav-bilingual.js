@@ -1,8 +1,7 @@
 /*
- * Greedy Navigation (bilingual-aware)
- * http://codepen.io/lukejacksonn/pen/PwmwWV
+ * Override greedy nav for bilingual single-list masthead.
+ * Loaded after main.min.js; replaces global updateNav().
  */
-
 (function ($) {
   var $nav = $("#site-nav");
   var $btn = $("#site-nav button");
@@ -18,7 +17,7 @@
     $hlinks.children().appendTo($vlinks);
     breaks = [];
     $btn.addClass("hidden");
-    $hlinks.addClass("hidden").removeClass("close");
+    $hlinks.addClass("hidden");
     $btn.removeClass("close");
   }
 
@@ -36,7 +35,7 @@
         $btn.removeClass("hidden");
       }
     } else {
-      if (availableSpace > breaks[breaks.length - 1]) {
+      if (breaks.length && availableSpace > breaks[breaks.length - 1]) {
         $hlinks.children().first().appendTo($vlinks);
         breaks.pop();
       }
@@ -55,16 +54,9 @@
   }
 
   window.greedyNavRestore = restoreGreedyNav;
-  window.greedyNavUpdate = updateNav;
+  window.updateNav = updateNav;
 
-  $(window).on("resize.greedyNav", updateNav);
-
-  $btn.on("click", function () {
-    $hlinks.toggleClass("hidden");
-    $(this).toggleClass("close");
-  });
-
-  $(document).ready(function () {
+  $(function () {
     restoreGreedyNav();
     updateNav();
   });

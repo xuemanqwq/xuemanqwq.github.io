@@ -3,16 +3,14 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
-        <ul class="visible-links masthead__nav masthead__nav--zh">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">首页</a></li>
+        <ul class="visible-links masthead__nav">
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item masthead__nav-item masthead__nav-item--zh"><a href="#about-me">首页</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item masthead__nav-item masthead__nav-item--en"><a href="#en-about-me">Home</a></li>
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ link.url | replace: '/#', '#' }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item masthead__nav-item masthead__nav-item--zh"><a href="{{ link.url | replace: '/#', '#' }}">{{ link.title }}</a></li>
           {% endfor %}
-        </ul>
-        <ul class="masthead__nav masthead__nav--en">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#en-about-me">Home</a></li>
           {% for link in site.data.navigation-en.main %}
-            <li class="masthead__menu-item"><a href="{{ link.url | replace: '/#', '#' }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item masthead__nav-item masthead__nav-item--en"><a href="{{ link.url | replace: '/#', '#' }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>

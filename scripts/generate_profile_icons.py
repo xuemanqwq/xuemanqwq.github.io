@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Generate profile and site icon sizes from images/logo/profile-512x512.png."""
+import shutil
 from pathlib import Path
 
 from PIL import Image
@@ -29,11 +30,14 @@ def main() -> None:
     ico_images = [
         fav.resize((s, s), Image.Resampling.LANCZOS) for s in (16, 32, 48)
     ]
+    favicon_ico = IMAGES_DIR / "favicon.ico"
     ico_images[0].save(
-        IMAGES_DIR / "favicon.ico",
+        favicon_ico,
         format="ICO",
         sizes=[(16, 16), (32, 32), (48, 48)],
     )
+    # Browsers often request /favicon.ico at site root (not /images/)
+    shutil.copy2(favicon_ico, ROOT / "favicon.ico")
 
     site_files = {
         "mstile-144x144.png": 144,

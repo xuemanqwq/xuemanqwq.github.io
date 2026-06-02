@@ -28,6 +28,7 @@ redirect_from:
 
 <div class="news-scroll" markdown="1">
 
+- *2026.5.31* 2026年中国大学生程序设计竞赛-全国邀请赛（广西） **国金奖**
 - *2026.5.24* 🎉 2026年山东省大学生程序设计竞赛 **省金奖(亚军)**
 - *2026.5.6* 全国高校计算机大赛—团体程序设计天梯赛 **国一等奖**
 - *2026.4.26* 🎉 中国大学生程序设计竞赛总决赛 **国铜奖**
@@ -162,6 +163,7 @@ Feel free to contact me at [xyz@stu.ujn.edu.cn](mailto:xyz@stu.ujn.edu.cn).
 
 <div class="news-scroll" markdown="1">
 
+- *May 31, 2026* 2026 CCPC National Invitational (Guangxi) — **Gold**
 - *May 24, 2026* 🎉 Shandong Collegiate Programming Contest — **Provincial Gold (Runner-up)**
 - *May 6, 2026* GPLT Team Programming Ladder — **National First Prize**
 - *Apr 26, 2026* 🎉 CCPC **National Finals** — **Bronze**

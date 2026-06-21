@@ -33,7 +33,7 @@ redirect_from:
 - *2026.5.24* 🎉 2026年山东省大学生程序设计竞赛 **省金奖(亚军)**
 - *2026.5.6* 全国高校计算机大赛—团体程序设计天梯赛 **国一等奖**
 - *2026.4.26* 🎉 中国大学生程序设计竞赛总决赛 **国铜奖**
-- *2026.4.10* 第十六届蓝桥杯全国软件和信息技术专业人才大赛C/C++程序设计大学B组 **省一等奖**
+- *2026.4.10* 第十七届蓝桥杯全国软件和信息技术专业人才大赛C/C++程序设计大学B组 **省一等奖**
 - *2026.3.29* CCF CSP计算机软件能力认证，成绩400分(400/500)
 - *2025.10 — 2026.3* 科研项目《融合视觉语言大模型的机器人导航与抓取关键技术研究》（核心成员）
 - *2026.2.2* 🎉 ACM-ICPC亚洲区域赛决赛 **银奖**
@@ -169,7 +169,7 @@ Feel free to contact me at [xyz@stu.ujn.edu.cn](mailto:xyz@stu.ujn.edu.cn).
 - *May 24, 2026* 🎉 Shandong Collegiate Programming Contest — **Provincial Gold (Runner-up)**
 - *May 6, 2026* GPLT Team Programming Ladder — **National First Prize**
 - *Apr 26, 2026* 🎉 CCPC **National Finals** — **Bronze**
-- *Apr 10, 2026* 16th Lanqiao Cup C/C++ University Group B — **Provincial First Prize**
+- *Apr 10, 2026* 17th Lanqiao Cup C/C++ University Group B — **Provincial First Prize**
 - *Mar 29, 2026* CCF CSP certification, score 400 (400/500)
 - *Oct 2025 — Mar 2026* Research project on robot navigation and grasping with vision-language models (core member)
 - *Feb 2, 2026* 🎉 ACM-ICPC Asia Regional **Finals** — **Silver**

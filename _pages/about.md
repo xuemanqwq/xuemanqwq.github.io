@@ -140,6 +140,12 @@ redirect_from:
 </div>
 </div>
 
+<span class='anchor' id='publications'></span>
+
+# 📄 论文
+
+*敬请期待，即将更新。*
+
 <span class='anchor' id='honors-and-awards'></span>
 
 # 🎖 Honors and Awards
@@ -296,6 +302,12 @@ We address low recognition accuracy, unsafe path planning, and inefficient multi
 
 </div>
 </div>
+
+<span class='anchor' id='en-publications'></span>
+
+# 📄 Publications
+
+*Will be updated soon.*
 
 <span class='anchor' id='en-honors-and-awards'></span>
 

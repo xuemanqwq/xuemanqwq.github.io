@@ -91,15 +91,16 @@ redirect_from:
 
 **基于无线通信的数字钥匙实验系统**（负责人）
 
-*2026年全国大学生电子设计竞赛 C 题 · [设计报告](https://gitee.com/xuemanqwq/question-c/blob/master/documents/002C048-%E8%AE%BA%E6%96%87%E6%8A%A5%E5%91%8A.pdf)*
+*2026年全国大学生电子设计竞赛 C 题 *
+**2026 年全国大学生电子设计竞赛山东赛区三等奖**
+[[**报告**](https://gitee.com/xuemanqwq/question-c/blob/master/documents/002C048-%E8%AE%BA%E6%96%87%E6%8A%A5%E5%91%8A.pdf)] [[**代码**](https://gitee.com/xuemanqwq/question-c)]
 
 基于 **STM32F103** + **UWB01/DW1000** 双板方案，采用 **DS-TWR** 测距（非 RSSI）、帧内 **TAG_SN** 身份认证与 **HWT101** 相对 yaw，实现单 Anchor 径向分区门锁；同一套 F1 固件通过 `ANCHOR` 宏切换 Tag/Anchor 角色。
 
 **主要成果**
 - 四态门锁逻辑（OUT/SENSE/WELCOME/UNLOCK）：3m 感应 / 2m 迎宾 / 1m 开锁，5 次连续确认 + 10cm 回差，丢包安全闭锁
 - **TAG_SN** 低四位与拨码 ID 匹配方可开锁；OLED 显示 ID、滤波距离、相对角度与锁状态，2m 边界声光提示
-- 完成天线延时标定与查表补偿（80–300cm），并迭代 F4 三边定位等方案；[固件与标定工具](https://gitee.com/xuemanqwq/question-c) 开源
-- 获 **2026 年全国大学生电子设计竞赛山东赛区三等奖**
+- 完成天线延时标定与查表补偿（80–300cm），并迭代 F4 三边定位等方案
 
 </div>
 </div>

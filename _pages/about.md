@@ -91,9 +91,11 @@ redirect_from:
 
 **基于无线通信的数字钥匙实验系统**（负责人）
 
-*2026年全国大学生电子设计竞赛 C 题 *
+*2026年全国大学生电子设计竞赛 C 题*
+
 **2026 年全国大学生电子设计竞赛山东赛区三等奖**
-[[**报告**](https://gitee.com/xuemanqwq/question-c/blob/master/documents/002C048-%E8%AE%BA%E6%96%87%E6%8A%A5%E5%91%8A.pdf)] [[**代码**](https://gitee.com/xuemanqwq/question-c)]
+
+**[[报告](https://gitee.com/xuemanqwq/question-c/blob/master/documents/002C048-%E8%AE%BA%E6%96%87%E6%8A%A5%E5%91%8A.pdf)]** **[[代码](https://gitee.com/xuemanqwq/question-c)]**
 
 基于 **STM32F103** + **UWB01/DW1000** 双板方案，采用 **DS-TWR** 测距（非 RSSI）、帧内 **TAG_SN** 身份认证与 **HWT101** 相对 yaw，实现单 Anchor 径向分区门锁；同一套 F1 固件通过 `ANCHOR` 宏切换 Tag/Anchor 角色。
 

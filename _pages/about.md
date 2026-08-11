@@ -91,16 +91,14 @@ redirect_from:
 
 **基于无线通信的数字钥匙实验系统**（负责人）
 
-*2026年全国大学生电子设计竞赛C题*
-
-**2026年全国大学生电子设计竞赛山东赛区三等奖**
+*2026年全国大学生电子设计竞赛C题* ***2026年全国大学生电子设计竞赛山东赛区三等奖***
 
 **[[报告](https://gitee.com/xuemanqwq/question-c/blob/master/documents/002C048-%E8%AE%BA%E6%96%87%E6%8A%A5%E5%91%8A.pdf)]** **[[代码](https://gitee.com/xuemanqwq/question-c)]**
 
 基于**STM32F103**+**UWB01**双板方案，数字钥匙集成**HWT101**回传相对yaw，智能门锁以**DS-TWR**测距、滤波补偿与**TAG_SN**认证实现感应/迎宾/开锁三区控制，同一套F1固件经`ANCHOR`宏编译为Tag/Anchor。
 
 **主要成果**
-- 四态门锁逻辑（OUT/SENSE/WELCOME/UNLOCK）：3m感应/2m迎宾/1m开锁，5次连续确认+10cm回差，丢包安全闭锁
+- 四态门锁逻辑：3m感应/2m迎宾/1m开锁，5次连续确认+10cm回差，丢包安全闭锁
 - **TAG_SN**低四位与拨码ID匹配方可开锁；OLED显示ID、滤波距离、相对角度与锁状态，2m边界声光提示
 - 完成天线延时标定与查表补偿（80–300cm），并迭代F4三边定位等方案
 
@@ -250,16 +248,14 @@ Feel free to contact me at [xyz@stu.ujn.edu.cn](mailto:xyz@stu.ujn.edu.cn).
 
 **Experimental System of Digital Key Based on Wireless Communication** (Project Leader)
 
-*2026 National Undergraduate Electronic Design Contest — Problem C*
-
-**Third Prize, 2026 NUEDC Shandong Provincial**
+*2026 National Undergraduate Electronic Design Contest — Problem C* ***Third Prize, 2026 NUEDC Shandong Provincial***
 
 **[[Report](https://gitee.com/xuemanqwq/question-c/blob/master/documents/002C048-%E8%AE%BA%E6%96%87%E6%8A%A5%E5%91%8A.pdf)]** **[[Code](https://gitee.com/xuemanqwq/question-c)]**
 
 On dual **STM32F103** + **UWB01** boards, the digital key reports relative yaw via **HWT101**, while the smart lock uses **DS-TWR** ranging, filtering, and **TAG_SN** authentication for sense/welcome/unlock zones; one F1 firmware builds Tag or Anchor via the `ANCHOR` macro.
 
 **Key Results**
-- Four-state lock logic (OUT/SENSE/WELCOME/UNLOCK): 3m sense / 2m welcome / 1m unlock; 5-sample confirmation, 10cm hysteresis, safe lock on packet loss
+- Four-state lock logic: 3m sense / 2m welcome / 1m unlock; 5-sample confirmation, 10cm hysteresis, safe lock on packet loss
 - Unlock only when **TAG_SN** lower 4 bits match dial ID; OLED shows ID, filtered distance, relative angle, and lock state; audio/visual cue at 2m boundary
 - Antenna-delay calibration and lookup compensation (80–300cm); explored F4 trilateration and other prototypes
 

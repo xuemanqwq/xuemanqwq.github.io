@@ -28,6 +28,7 @@ redirect_from:
 
 <div class="news-scroll" markdown="1">
 
+- *2026.8.5* 2026年全国大学生电子设计竞赛山东赛区 **三等奖**
 - *2026.6.6* 第十七届蓝桥杯全国软件和信息技术专业人才大赛全国总决赛C/C++程序设计大学B组 **国一等奖**
 - *2026.5.31* 2026年中国大学生程序设计竞赛-全国邀请赛（广西） **国金奖**
 - *2026.5.24* 🎉 2026年山东省大学生程序设计竞赛 **省金奖(亚军)**
@@ -85,6 +86,24 @@ redirect_from:
 
 # 🔬 Research Projects
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2026.7 — 2026.8</div><img src='{{ "/images/research/pic3.png" | relative_url }}' alt="基于无线通信的数字钥匙实验系统" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**基于无线通信的数字钥匙实验系统**（负责人）
+
+*2026年全国大学生电子设计竞赛 C 题 · [设计报告](https://gitee.com/xuemanqwq/question-c/blob/master/documents/002C048-%E8%AE%BA%E6%96%87%E6%8A%A5%E5%91%8A.pdf)*
+
+基于 **STM32F103** + **UWB01/DW1000** 双板方案，采用 **DS-TWR** 测距（非 RSSI）、帧内 **TAG_SN** 身份认证与 **HWT101** 相对 yaw，实现单 Anchor 径向分区门锁；同一套 F1 固件通过 `ANCHOR` 宏切换 Tag/Anchor 角色。
+
+**主要成果**
+- 四态门锁逻辑（OUT/SENSE/WELCOME/UNLOCK）：3m 感应 / 2m 迎宾 / 1m 开锁，5 次连续确认 + 10cm 回差，丢包安全闭锁
+- **TAG_SN** 低四位与拨码 ID 匹配方可开锁；OLED 显示 ID、滤波距离、相对角度与锁状态，2m 边界声光提示
+- 完成天线延时标定与查表补偿（80–300cm），并迭代 F4 三边定位等方案；[固件与标定工具](https://gitee.com/xuemanqwq/question-c) 开源
+- 获 **2026 年全国大学生电子设计竞赛山东赛区三等奖**
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2025.10 — 2026.3</div><img src='{{ "/images/research/pic2.png" | relative_url }}' alt="融合视觉语言大模型的机器人导航与抓取" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -124,6 +143,7 @@ redirect_from:
 
 # 🎖 Honors and Awards
 
+- *2026.8* 全国大学生电子设计竞赛山东赛区 **省三等奖**
 - *2026.5* 山东省大学生程序设计竞赛**省金奖（亚军）**
 - *2026* ACM-ICPC亚洲区域赛**决赛**银奖；CCPC**总决赛**国铜奖
 - *2025* ACM-ICPC西安、武汉区域赛**金奖** ×2；CCPC国赛济南站**国金奖**、郑州站国银奖
@@ -164,6 +184,7 @@ Feel free to contact me at [xyz@stu.ujn.edu.cn](mailto:xyz@stu.ujn.edu.cn).
 
 <div class="news-scroll" markdown="1">
 
+- *Aug 5, 2026* 2026 National Undergraduate Electronic Design Contest (Shandong) — **Third Prize**
 - *Jun 6, 2026* 17th Lanqiao Cup C/C++ National Finals — **National First Prize**
 - *May 31, 2026* 2026 CCPC National Invitational (Guangxi) — **Gold**
 - *May 24, 2026* 🎉 Shandong Collegiate Programming Contest — **Provincial Gold (Runner-up)**
@@ -221,6 +242,24 @@ Feel free to contact me at [xyz@stu.ujn.edu.cn](mailto:xyz@stu.ujn.edu.cn).
 
 # 🔬 Research Projects
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Jul 2026 — Aug 2026</div><img src='{{ "/images/research/pic3.png" | relative_url }}' alt="Experimental system of digital key based on wireless communication" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Experimental System of Digital Key Based on Wireless Communication** (Project Leader)
+
+*2026 National Undergraduate Electronic Design Contest — Problem C · [Design Report](https://gitee.com/xuemanqwq/question-c/blob/master/documents/002C048-%E8%AE%BA%E6%96%87%E6%8A%A5%E5%91%8A.pdf)*
+
+Dual **STM32F103** + **UWB01/DW1000** boards with **DS-TWR** ranging (not RSSI), in-frame **TAG_SN** authentication, and **HWT101** relative yaw for single-Anchor radial door-lock zones; one F1 firmware builds Tag or Anchor via an `ANCHOR` macro.
+
+**Key Results**
+- Four-state lock logic (OUT/SENSE/WELCOME/UNLOCK): 3m sense / 2m welcome / 1m unlock; 5-sample confirmation, 10cm hysteresis, safe lock on packet loss
+- Unlock only when **TAG_SN** lower 4 bits match dial ID; OLED shows ID, filtered distance, relative angle, and lock state; audio/visual cue at 2m boundary
+- Antenna-delay calibration and lookup compensation (80–300cm); explored F4 trilateration and other prototypes; [firmware and tools](https://gitee.com/xuemanqwq/question-c) open-source
+- **Third Prize**, 2026 NUEDC Shandong Provincial
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Oct 2025 — Mar 2026</div><img src='{{ "/images/research/pic2.png" | relative_url }}' alt="Robot navigation and grasping with vision-language models" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -260,6 +299,7 @@ We address low recognition accuracy, unsafe path planning, and inefficient multi
 
 # 🎖 Honors and Awards
 
+- *Aug 2026* National Undergraduate Electronic Design Contest (Shandong) — **Provincial Third Prize**
 - *May 2026* Shandong Collegiate Programming Contest — **Provincial Gold (Runner-up)**
 - *2026* ACM-ICPC Asia Regional **Finals** — Silver; CCPC **National Finals** — Bronze
 - *2025* ACM-ICPC Xi'an & Wuhan Regionals — **Gold** ×2; CCPC National Jinan — **Gold**, Zhengzhou — Silver

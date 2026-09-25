@@ -164,8 +164,9 @@ redirect_from:
 
 # 📖 Educations
 
+- *2027.09 起*, **电子科技大学**, 计算机技术（研究生）
+
 - *2023.09 — 2027.06（在读）*, **济南大学**, 通信工程
-  - 平均绩点：**4.79/5** | 专业排名：**3/86**
 
 - *2020.09 — 2023.06*, **湖北省仙桃中学**
 
@@ -327,8 +328,9 @@ We address low recognition accuracy, unsafe path planning, and inefficient multi
 
 # 📖 Education
 
+- *Starting Sep 2027*, **University of Electronic Science and Technology of China**, Computer Technology (Graduate Program)
+
 - *Sep 2023 — Jun 2027 (Expected)*, **University of Jinan**, Communication Engineering
-  - GPA: **4.79/5** | Rank: **3/86**
 
 - *Sep 2020 — Jun 2023*, **Hubei Xiantao Middle School** (湖北省仙桃中学)
 

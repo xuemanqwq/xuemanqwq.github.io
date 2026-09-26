@@ -142,7 +142,7 @@ redirect_from:
 
 <span class='anchor' id='publications'></span>
 
-# 📄 论文
+# 📄 Publications
 
 *敬请期待，即将更新。*
 

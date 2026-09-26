@@ -22,7 +22,7 @@ redirect_from:
 
 <span class='anchor' id='news'></span>
 
-# 🔥 动态
+# 🔥 News
 
 <div class="news-scroll-wrap" markdown="0">
 
@@ -84,7 +84,7 @@ redirect_from:
 
 <span class='anchor' id='research-projects'></span>
 
-# 🔬 科研项目
+# 🔬 Research Projects
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">2026.7 — 2026.8</div><img src='{{ "/images/research/pic3.png" | relative_url }}' alt="基于无线通信的数字钥匙实验系统" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -148,7 +148,7 @@ redirect_from:
 
 <span class='anchor' id='honors-and-awards'></span>
 
-# 🎖 荣誉奖项
+# 🎖 Honors and Awards
 
 - *2026.8* 全国大学生电子设计竞赛山东赛区 **省三等奖**
 - *2026.5* 山东省大学生程序设计竞赛**省金奖（亚军）**
@@ -162,7 +162,7 @@ redirect_from:
 
 <span class='anchor' id='educations'></span>
 
-# 📖 教育经历
+# 📖 Educations
 
 - *2027.09 — 2030.06*, **电子科技大学**, 硕士，计算机技术
 

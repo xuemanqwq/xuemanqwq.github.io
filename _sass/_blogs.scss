@@ -3,8 +3,8 @@
    ========================================================================== */
 
 .blogs-page {
-  max-width: 52em;
-  margin: 0 auto;
+  max-width: 64em;
+  margin: 0 auto 0 0;
   padding: 0 1em 2em;
 
   &__back {
@@ -31,35 +31,35 @@
 }
 
 .blogs-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1.25rem;
+  display: block;
   margin-top: 1.5rem;
 }
 
 .blog-card {
   display: flex;
-  height: 230px;
-  min-height: 230px;
+  height: 220px;
+  min-height: 220px;
   flex-direction: column;
   box-sizing: border-box;
   overflow: hidden;
-  padding: 1.25rem;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  background: #fff;
+  padding: 1.35rem 0;
+  border-top: 1px solid $border-color;
+  border-radius: 0;
+  background: transparent;
   color: $text-color;
   text-decoration: none;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  transition: background-color 0.2s ease, padding-left 0.2s ease;
+
+  &:last-child {
+    border-bottom: 1px solid $border-color;
+  }
 
   &:hover,
   &:focus {
-    border-color: #c8c8c8;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    background: rgba(238, 172, 0, 0.04);
     color: $text-color;
     text-decoration: none;
-    transform: translateY(-2px);
+    padding-left: 0.45rem;
   }
 
   &__meta {
@@ -96,11 +96,18 @@
   }
 
   &__read-more {
+    display: block;
     margin-top: auto;
-    padding-top: 0.8rem;
+    padding-top: 0.9rem;
     color: #b07800;
     font-size: $type-size-6;
     font-weight: 600;
+  }
+}
+
+.page--blogs {
+  @include breakpoint($large) {
+    @include prefix(0 of 12);
   }
 }
 

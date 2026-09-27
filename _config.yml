@@ -143,6 +143,7 @@ defaults:
     values:
       layout: default
       author_profile: false
+      page_class: page--blogs
 
 
 # Sass/SCSS

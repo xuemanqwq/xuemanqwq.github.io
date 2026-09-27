@@ -152,6 +152,7 @@
     }
     h2, h3 {
       margin: 1.8rem 0 0.8rem;
+      scroll-margin-top: 2rem;
       color: #223852;
       font-family: inherit;
       line-height: 1.5;
@@ -162,10 +163,16 @@
   }
 
   .blog-toc {
-    display: none;
+    display: block;
+    margin: 0 0 1.5rem;
+    padding: 0.9rem 1rem;
+    border-left: 2px solid #e5eaf0;
+    background: #f7f9fc;
     color: #526176;
     font-size: 0.88rem;
   }
+
+  .blog-toc[hidden] { display: none; }
 
   .blog-toc__title {
     margin: 0 0 0.8rem;
@@ -212,7 +219,10 @@
       grid-row: 2;
       position: sticky;
       top: 2rem;
-      padding-top: 0.35rem;
+      margin: 0;
+      padding: 0.35rem 0 0;
+      border: 0;
+      background: transparent;
     }
   }
 

@@ -1,0 +1,45 @@
+<div class="blogs-page">
+  <p class="blogs-page__back blogs-page__back--zh">
+    <a href="{{ '/' | relative_url }}#about-me">← 返回主页</a>
+  </p>
+  <p class="blogs-page__back blogs-page__back--en">
+    <a href="{{ '/' | relative_url }}#en-about-me">← Back to home</a>
+  </p>
+
+  <div class="lang-panel lang-panel--zh" markdown="1">
+# 📝 日志
+  </div>
+
+  <div class="lang-panel lang-panel--en" markdown="1">
+# 📝 Blogs
+  </div>
+
+  {% assign blog_posts = site.blogs | sort: "date" | reverse %}
+  {% if blog_posts and blog_posts.size > 0 %}
+    <div class="blogs-grid">
+      {% for post in blog_posts %}
+        <a class="blog-card" href="{{ post.url | relative_url }}">
+          <div class="blog-card__meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+            {% if post.category %}<span>{{ post.category }}</span>{% endif %}
+          </div>
+          <h2 class="blog-card__title">
+            <span class="blog-text blog-text--zh">{{ post.title }}</span>
+            <span class="blog-text blog-text--en">{{ post.title_en | default: post.title }}</span>
+          </h2>
+          <p class="blog-card__excerpt blog-text blog-text--zh">{{ post.excerpt_zh | default: post.excerpt | strip_html | truncate: 116 }}</p>
+          <p class="blog-card__excerpt blog-text blog-text--en">{{ post.excerpt_en | default: post.excerpt | strip_html | truncate: 116 }}</p>
+          <span class="blog-card__read-more">
+            <span class="blog-text blog-text--zh">阅读全文 →</span>
+            <span class="blog-text blog-text--en">Read blog →</span>
+          </span>
+        </a>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="blogs-page__empty">
+      <span class="blog-text blog-text--zh">暂无日志。</span>
+      <span class="blog-text blog-text--en">No blog posts yet.</span>
+    </p>
+  {% endif %}
+</div>

@@ -20,3 +20,6 @@ main:
 
   - title: "Photos"
     url: "/photos/"
+
+  - title: "Blogs"
+    url: "/blogs/"

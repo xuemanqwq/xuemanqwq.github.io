@@ -145,8 +145,8 @@ html.site-lang-en {
 }
 
 .blog-post {
-  max-width: 52em;
-  margin: 0 auto;
+  max-width: 64em;
+  margin: 0 auto 0 0;
   padding: 0 1em 2em;
 
   &__back {
@@ -163,14 +163,8 @@ html.site-lang-en {
   }
 
   &__content {
-    max-width: 46em;
-    margin: 0 auto;
-  }
-
-  &__meta {
-    margin: 0 0 1.5rem;
-    color: #8a8f94;
-    font-size: $type-size-6;
+    max-width: 58em;
+    margin: 0;
   }
 
   h1 {

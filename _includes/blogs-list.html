@@ -6,13 +6,11 @@
     <a href="{{ '/' | relative_url }}#en-about-me">← Back to home</a>
   </p>
 
-  <div class="lang-panel lang-panel--zh" markdown="1">
-# 📝 日志
-  </div>
-
-  <div class="lang-panel lang-panel--en" markdown="1">
-# 📝 Blogs
-  </div>
+  <header class="blogs-header">
+    <h1>Blogs</h1>
+    <p class="blog-text blog-text--zh">学习、探索与日常，记录每一个值得留下的想法。</p>
+    <p class="blog-text blog-text--en">Notes on learning, exploring, and the ideas worth keeping.</p>
+  </header>
 
   {% assign blog_posts = site.blogs | sort: "date" | reverse %}
   {% if blog_posts and blog_posts.size > 0 %}
@@ -21,17 +19,18 @@
         <a class="blog-card" href="{{ post.url | relative_url }}">
           <div class="blog-card__meta">
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
-            {% if post.category %}<span>{{ post.category }}</span>{% endif %}
+            {% if post.category %}<span class="blog-card__category"><span class="blog-text blog-text--zh">{{ post.category | escape }}</span><span class="blog-text blog-text--en">{{ post.category_en | default: post.category | escape }}</span></span>{% endif %}
           </div>
           <h2 class="blog-card__title">
-            <span class="blog-text blog-text--zh">{{ post.title }}</span>
-            <span class="blog-text blog-text--en">{{ post.title_en | default: post.title }}</span>
+            <span class="blog-text blog-text--zh">{{ post.title | escape }}</span>
+            <span class="blog-text blog-text--en">{{ post.title_en | default: post.title | escape }}</span>
           </h2>
           <p class="blog-card__excerpt blog-text blog-text--zh">{{ post.excerpt_zh | default: post.excerpt | strip_html | truncate: 116 }}</p>
           <p class="blog-card__excerpt blog-text blog-text--en">{{ post.excerpt_en | default: post.excerpt | strip_html | truncate: 116 }}</p>
           <span class="blog-card__read-more">
-            <span class="blog-text blog-text--zh">阅读全文 →</span>
-            <span class="blog-text blog-text--en">Read blog →</span>
+            <span class="blog-text blog-text--zh">阅读全文</span>
+            <span class="blog-text blog-text--en">Read article</span>
+            <span class="blog-card__arrow" aria-hidden="true">→</span>
           </span>
         </a>
       {% endfor %}

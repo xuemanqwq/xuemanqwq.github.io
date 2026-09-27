@@ -65,6 +65,19 @@ Some examples:
 1. If you change the source code of the website, the livereload server will automatically refresh.
 1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
 
+### Windows (Ruby 4)
+
+The repository includes the Jekyll 4 dependencies in `Gemfile` and a PowerShell
+launcher that keeps Bundler's gems on the project drive. From PowerShell, run:
+
+```powershell
+bundle install
+./scripts/jekyll.ps1 serve --livereload
+```
+
+The site will be available at http://127.0.0.1:4000. To build without starting
+the server, use `./scripts/jekyll.ps1 build`.
+
 # Acknowledges
 
 - AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.

@@ -9,20 +9,15 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 4.4"
+gem "logger"
+gem "tzinfo", "~> 2.0"
+gem "tzinfo-data", platforms: :windows
+gem "webrick", "~> 1.9"
 
-# If you want to use Jekyll native, uncomment the line below.
-# To upgrade, run `bundle update`.
-
-# gem "jekyll"
-
-# Optional on Windows Ruby 3.x only (incompatible with Ruby 4):
-# gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-  # gem "jekyll-archives"
-  gem "jekyll-feed"
-  gem 'jekyll-sitemap'
-  gem 'hawkins'
-end
+# Plugins used by the site.
+gem "jekyll-feed", "~> 0.17"
+gem "jekyll-gist", "~> 1.5"
+gem "jekyll-paginate", "~> 1.1"
+gem "jekyll-redirect-from", "~> 0.16"
+gem "jekyll-sitemap", "~> 1.4"

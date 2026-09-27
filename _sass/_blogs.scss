@@ -1,9 +1,5 @@
 /* Blog archive and reading pages: single-column, full-row layout. */
 .page.page--blogs {
-  float: none;
-  width: 100%;
-  margin: 0;
-  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
 
   .blogs-page, .blog-post {
@@ -165,6 +161,61 @@
     p { margin: 0 0 1.2rem; }
   }
 
+  .blog-toc {
+    display: none;
+    color: #526176;
+    font-size: 0.88rem;
+  }
+
+  .blog-toc__title {
+    margin: 0 0 0.8rem;
+    color: #172b46;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 700;
+  }
+
+  .blog-toc__list {
+    margin: 0;
+    padding: 0 0 0 0.8rem;
+    border-left: 2px solid #e5eaf0;
+    list-style: none;
+  }
+
+  .blog-toc__item { margin: 0.6rem 0; line-height: 1.5; }
+  .blog-toc__item--nested { margin-left: 0.8rem; font-size: 0.82rem; }
+
+  .blog-toc__link {
+    color: #738093;
+    text-decoration: none;
+    transition: color 0.18s ease;
+    &:hover, &:focus-visible { color: #224b8d; }
+  }
+
+  .blog-toc__link.is-active {
+    color: #224b8d;
+    font-weight: 650;
+  }
+
+  @include breakpoint($large) {
+    .blog-post {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 11.5rem;
+      column-gap: 2rem;
+      align-items: start;
+    }
+    .blog-post__back { grid-column: 1 / -1; }
+    .blog-post__content { grid-column: 1; }
+    .blog-toc {
+      display: block;
+      grid-column: 2;
+      grid-row: 2;
+      position: sticky;
+      top: 2rem;
+      padding-top: 0.35rem;
+    }
+  }
+
   // Override paragraph display rules so only the selected language appears.
   .blog-text--en, p.blog-card__excerpt.blog-text--en,
   .blogs-page__back--en, .blog-post__back--en { display: none; }
@@ -177,6 +228,8 @@
     p.blog-card__excerpt { font-size: 14px; }
   }
 }
+
+.page--blogs { @include breakpoint($large) { @include prefix(0 of 12); } }
 
 html.site-lang-en .page--blogs {
   .blog-text--zh, p.blog-card__excerpt.blog-text--zh,

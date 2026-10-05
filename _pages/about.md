@@ -28,6 +28,7 @@ redirect_from:
 
 <div class="news-scroll" markdown="1">
 
+- *2026.8* 第九届牛客暑期多校训练营 **一等奖**
 - *2026.8.5* 2026年全国大学生电子设计竞赛山东赛区 **三等奖**
 - *2026.6.6* 第十七届蓝桥杯全国软件和信息技术专业人才大赛全国总决赛C/C++程序设计大学B组 **国一等奖**
 - *2026.5.31* 2026年中国大学生程序设计竞赛-全国邀请赛（广西） **国金奖**
@@ -192,6 +193,7 @@ Feel free to contact me at [xyz@stu.ujn.edu.cn](mailto:xyz@stu.ujn.edu.cn).
 
 <div class="news-scroll" markdown="1">
 
+- *Aug 2026* 9th Nowcoder Summer Multi-University Training Camp — **First Prize**
 - *Aug 5, 2026* 2026 National Undergraduate Electronic Design Contest (Shandong) — **Third Prize**
 - *Jun 6, 2026* 17th Lanqiao Cup C/C++ National Finals — **National First Prize**
 - *May 31, 2026* 2026 CCPC National Invitational (Guangxi) — **Gold**

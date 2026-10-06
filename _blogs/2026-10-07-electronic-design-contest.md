@@ -199,7 +199,7 @@ zyl同学，后面就叫他张神。他上一年同样做的是控制题，这�
 
 C题本身并不算特别复杂。我们用UWB做测距，再配合陀螺仪测角度，很快就把最初的方案搭了起来。真正让人头疼的，反而还是那些熟悉的硬件问题。
 
-<p align="center"><img src="{{ '/images/blog/electronic-design-contest/15.jpg' | relative_url }}" width="620" alt="手持的无线通信模块"></p>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/15.jpg' | relative_url }}" width="420" alt="手持的无线通信模块"></p>
 <p align="center"><em>UWB</em></p>
 
 板子烧了不少，陀螺仪的零漂也一直很严重。

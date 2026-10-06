@@ -180,9 +180,11 @@
       text-align: center;
       img { margin: 0 auto 0.35rem; }
       figcaption {
+        display: block;
         margin: 0;
         color: #7a8798;
         font-size: 0.82rem;
+        font-style: italic;
         line-height: 1.6;
       }
     }

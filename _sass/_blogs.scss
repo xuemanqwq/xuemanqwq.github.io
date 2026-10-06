@@ -160,6 +160,30 @@
     h2 { font-size: 1.25rem; }
     p, li { font-size: 0.95rem; line-height: 1.95; }
     p { margin: 0 0 1.2rem; }
+
+    // Keep imported long-form posts readable on desktop and mobile while
+    // preserving each image's original aspect ratio.
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 1.5rem auto 0.5rem;
+      border: 1px solid #e5eaf0;
+      border-radius: 8px;
+      background: #fff;
+    }
+    p[align="center"] {
+      margin: 1.8rem 0 0.35rem;
+      text-align: center;
+      img { margin: 0 auto; }
+    }
+    p[align="center"] + p {
+      margin-top: 0;
+      color: #7a8798;
+      font-size: 0.82rem;
+      line-height: 1.6;
+      text-align: center;
+    }
   }
 
   .blog-toc {

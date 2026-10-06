@@ -37,24 +37,18 @@ excerpt_en: "A three-year reflection on electronic design contests, teammates, h
 
 当时崔老师给我的单片机：
 
-<figure class="blog-figure">
-  <img src="{{ '/images/blog/electronic-design-contest/01.jpg' | relative_url }}" width="680" alt="">
-  <figcaption>崔老师当时给我的单片机开发板</figcaption>
-</figure>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/01.jpg' | relative_url }}" width="680" alt=""></p>
+<p align="center"><em>崔老师当时给我的单片机开发板</em></p>
 
 当时我上午在家学习51单片机，下午就在图书馆和何神学习C++和蓝桥杯。
 
-<figure class="blog-figure">
-  <img src="{{ '/images/blog/electronic-design-contest/02.jpg' | relative_url }}" width="360" alt="c4c4aa6812f6a17d21c8039cbc1ee6b8">
-  <figcaption>在图书馆和何神学习</figcaption>
-</figure>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/02.jpg' | relative_url }}" width="360" alt="c4c4aa6812f6a17d21c8039cbc1ee6b8"></p>
+<p align="center"><em>在图书馆和何神学习</em></p>
 
 Fun fact：我第一次回家路上路子爆掉了，疑似装了太多东西，然后这次回家老费劲了。
 
-<figure class="blog-figure">
-  <img src="{{ '/images/blog/electronic-design-contest/03.jpg' | relative_url }}" width="360" alt="344e745332e0c8090a6f6a713a09a8c5">
-  <figcaption>爆掉的行李箱</figcaption>
-</figure>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/03.jpg' | relative_url }}" width="360" alt="344e745332e0c8090a6f6a713a09a8c5"></p>
+<p align="center"><em>爆掉的行李箱</em></p>
 
 然后开学了，我的单片机学习也很自然地搁置了下来。
 
@@ -62,19 +56,15 @@ Fun fact：我第一次回家路上路子爆掉了，疑似装了太多东西，
 
 刚组队的时候，他给我安排了几个51的小项目。现在已经记不清具体做过什么了，只记得当时完成得还不错。也是从那段时间开始，我又重新拾起单片机，开始学STM32。
 
-<figure class="blog-figure">
-  <img src="{{ '/images/blog/electronic-design-contest/04.jpg' | relative_url }}" width="700" alt="Image_1718939556709(1)">
-  <figcaption>重新开始学单片机时用的开发板</figcaption>
-</figure>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/04.jpg' | relative_url }}" width="700" alt="Image_1718939556709(1)"></p>
+<p align="center"><em>重新开始学单片机时用的开发板</em></p>
 
 时间一点点过去，我的第一次电赛，也就这样慢慢靠近了。
 
 第一次暑假留校的时候，同宿舍也有一个人参加了电赛，不过他待到一半就回家了。我倒是一直留了下来，又跟着江协的视频把STM32过了一遍，也断断续续看了看TI的板子和K210摄像头。
 
-<figure class="blog-figure">
-  <img src="{{ '/images/blog/electronic-design-contest/05.jpg' | relative_url }}" width="360" alt="IMG_20240723_224048(1)">
-  <figcaption>暑假留校时接触的 TI 开发板</figcaption>
-</figure>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/05.jpg' | relative_url }}" width="360" alt="IMG_20240723_224048(1)"></p>
+<p align="center"><em>暑假留校时接触的 TI 开发板</em></p>
 
 现在回想起来，那时候其实也谈不上准备得有多充分，更像是什么都见过一点，又什么都不算真正熟练。就这样，我的第一次电赛正式开始了。
 
@@ -86,10 +76,8 @@ Fun fact：我第一次回家路上路子爆掉了，疑似装了太多东西，
 
 至于跑得怎么样，那就很难说了。
 
-<figure class="blog-figure">
-  <img src="{{ '/images/blog/electronic-design-contest/06.jpg' | relative_url }}" width="700" alt="IMG_20240726_085126(1)">
-  <figcaption>初版小车</figcaption>
-</figure>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/06.jpg' | relative_url }}" width="700" alt="IMG_20240726_085126(1)"></p>
+<p align="center"><em>初版小车</em></p>
 
 第二天开始，我们遇到了一个后来几乎贯穿我整个电赛经历的问题——硬件。
 
@@ -105,10 +93,8 @@ Fun fact：我第一次回家路上路子爆掉了，疑似装了太多东西，
 
 只记得最后小车还是慢吞吞地跑完了全程。至于当时到底改过哪些参数、试过哪些办法，三年后的我已经想不起来了。
 
-<figure class="blog-figure">
-  <img src="{{ '/images/blog/electronic-design-contest/07.png' | relative_url }}" width="300" alt="image-20261006224334756">
-  <figcaption>第一次电赛时的小车跑圈测试</figcaption>
-</figure>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/07.png' | relative_url }}" width="300" alt="image-20261006224334756"></p>
+<p align="center"><em>第一次电赛时的小车跑圈测试</em></p>
 
 电赛最后一天，我和龙学长熬了一个通宵。后半夜实在撑不住，我就趴在椅子上睡了几个小时。天气很闷，还有蚊子，当然也睡不好。
 
@@ -116,10 +102,8 @@ Fun fact：我第一次回家路上路子爆掉了，疑似装了太多东西，
 
 现在已经记不起电话里说了什么，只记得当时实验室的灯还亮着。
 
-<figure class="blog-figure">
-  <img src="{{ '/images/blog/electronic-design-contest/08.jpg' | relative_url }}" width="360" alt="IMG_20240801_151546(1)">
-  <figcaption>封箱时候的照片</figcaption>
-</figure>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/08.jpg' | relative_url }}" width="360" alt="IMG_20240801_151546(1)"></p>
+<p align="center"><em>封箱时候的照片</em></p>
 
 ## 大二的电赛
 
@@ -135,19 +119,15 @@ Fun fact：我第一次回家路上路子爆掉了，疑似装了太多东西，
 
 现在回头看，那大概也是我第一次开始觉得，计算机视觉这个方向似乎真的很有前途。
 
-<figure class="blog-figure">
-  <img src="{{ '/images/blog/electronic-design-contest/09.jpg' | relative_url }}" width="800" alt="40a64707e354f1771e333bea6f71cd87_720">
-  <figcaption>摄像头</figcaption>
-</figure>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/09.jpg' | relative_url }}" width="800" alt="40a64707e354f1771e333bea6f71cd87_720"></p>
+<p align="center"><em>摄像头</em></p>
 
 因为前期准备得不算充分，我们最后还是决定继续做相对熟悉的小车题。
 
 这一年的题目依旧限制使用TI的板子，而且似乎也是第一次连续两年在同一类题目里这样限制。题目本身比上一年复杂不少，需要小车跑圈，同时让车上的摄像头和激光配合完成打点、画圆之类的操作，对小车和视觉之间的协同要求很高。
 
-<figure class="blog-figure">
-  <img src="{{ '/images/blog/electronic-design-contest/10.png' | relative_url }}" width="540" alt="image-20261006232243945">
-  <figcaption>简易自行瞄准装置（E题）</figcaption>
-</figure>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/10.png' | relative_url }}" width="540" alt="image-20261006232243945"></p>
+<p align="center"><em>简易自行瞄准装置（E题）</em></p>
 
 好在去年留下来的那套小车代码还在。虽然现在看来已经算是一座不太好维护的屎山，但复制过来移植一下，小车很快就能重新跑起来。
 
@@ -165,10 +145,8 @@ Fun fact：我第一次回家路上路子爆掉了，疑似装了太多东西，
 
 当时几个学长都觉得，只要基础三问能够稳定做出来，省一应该还是很有希望的。我们当时对这个判断也没有什么怀疑。
 
-<figure class="blog-figure">
-  <img src="{{ '/images/blog/electronic-design-contest/11.jpg' | relative_url }}" width="800" alt="img">
-  <figcaption>深夜的实验室</figcaption>
-</figure>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/11.jpg' | relative_url }}" width="800" alt="img"></p>
+<p align="center"><em>深夜的实验室</em></p>
 
 这一年的测评是在青岛。学校安排了大巴，半夜统一出发。我一直不太习惯这种赶路方式，车上也没怎么休息好。后来返程的时候，我干脆自己坐火车回了家。
 
@@ -178,10 +156,8 @@ Fun fact：我第一次回家路上路子爆掉了，疑似装了太多东西，
 
 倒是几个同级的大二同学喊我过去一起拍了一张，我就跟着去了。
 
-<figure class="blog-figure">
-  <img src="{{ '/images/blog/electronic-design-contest/12.jpg' | relative_url }}" width="700" alt="e9e4eea3a71ff08a38e5f2983b53775e">
-  <figcaption>和大二的合影</figcaption>
-</figure>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/12.jpg' | relative_url }}" width="700" alt="e9e4eea3a71ff08a38e5f2983b53775e"></p>
+<p align="center"><em>和大二的合影</em></p>
 
 后来成绩出来，居然还是省三。
 
@@ -189,10 +165,8 @@ Fun fact：我第一次回家路上路子爆掉了，疑似装了太多东西，
 
 好像折腾了一整个夏天，最后只是绕了一圈，又回到了原点。
 
-<figure class="blog-figure">
-  <img src="{{ '/images/blog/electronic-design-contest/13.png' | relative_url }}" width="800" alt="全国大学生电子设计竞赛山东赛区三等奖证书">
-  <figcaption>普通的证书</figcaption>
-</figure>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/13.png' | relative_url }}" width="800" alt="全国大学生电子设计竞赛山东赛区三等奖证书"></p>
+<p align="center"><em>普通的证书</em></p>
 
 ## 大三的电赛
 
@@ -214,10 +188,8 @@ zyl同学，后面就叫他张神。他上一年同样做的是控制题，这�
 
 但赛题出来以后，事情还是和预想的不太一样。在崔老师的建议下，我们最后决定不再做小车，临时换到了C题。现在回头看，这个决定不能说错。只是后来发生的很多事情，大概都从这里开始了。
 
-<figure class="blog-figure">
-  <img src="{{ '/images/blog/electronic-design-contest/14.jpg' | relative_url }}" width="520" alt="C题：基于无线通信的数字钥匙实验系统题目">
-  <figcaption>基于无线通信的数字钥匙实验系统</figcaption>
-</figure>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/14.jpg' | relative_url }}" width="520" alt="C题：基于无线通信的数字钥匙实验系统题目"></p>
+<p align="center"><em>基于无线通信的数字钥匙实验系统</em></p>
 
 之所以最后选择C题，主要还是因为以前实验室的房学长做过比较类似的东西，论文、代码和一些现成的硬件都还在，至少不算完全从零开始。值得一提，房学长也是个大牛，保研去了中国科学院大学，后面又留那读博士了，现在还开了公司。而且和小车题相比，C题的问数要少得多，看起来只要把核心方案做通，后面的事情就会简单不少。缺点也很明显，这种题比较冷门，做的人少，容错也低，一旦某个地方出问题，可能连补救的机会都不多。不过我们三个人本来也没有那么想继续折腾小车，最后还是决定试一试。
 
@@ -227,10 +199,8 @@ zyl同学，后面就叫他张神。他上一年同样做的是控制题，这�
 
 C题本身并不算特别复杂。我们用UWB做测距，再配合陀螺仪测角度，很快就把最初的方案搭了起来。真正让人头疼的，反而还是那些熟悉的硬件问题。
 
-<figure class="blog-figure">
-  <img src="{{ '/images/blog/electronic-design-contest/15.jpg' | relative_url }}" width="620" alt="手持的无线通信模块">
-  <figcaption>UWB</figcaption>
-</figure>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/15.jpg' | relative_url }}" width="620" alt="手持的无线通信模块"></p>
+<p align="center"><em>UWB</em></p>
 
 板子烧了不少，陀螺仪的零漂也一直很严重。
 
@@ -238,19 +208,15 @@ C题本身并不算特别复杂。我们用UWB做测距，再配合陀螺仪测�
 
 第一次接上去的时候，确实有种早知道一开始就该买这个的感觉。
 
-<figure class="blog-figure">
-  <img src="{{ '/images/blog/electronic-design-contest/16.jpg' | relative_url }}" width="420" alt="数字钥匙方案的硬件">
-  <figcaption>最后的成品</figcaption>
-</figure>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/16.jpg' | relative_url }}" width="420" alt="数字钥匙方案的硬件"></p>
+<p align="center"><em>最后的成品</em></p>
 
 可惜好用归好用，其中一个后来还是烧了，剩下那个状态也没有最开始那么理想。最后几个人又折腾了很久，靠着调参数、改代码，再加上一点AI帮忙，总算把问题压了下来。
 
 那天晚上我们大概忙到凌晨三点，就决定先不继续熬了。
 
-<figure class="blog-figure">
-  <img src="{{ '/images/blog/electronic-design-contest/17.jpg' | relative_url }}" width="700" alt="比赛现场的测试布局">
-  <figcaption>C题在实验室测试</figcaption>
-</figure>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/17.jpg' | relative_url }}" width="700" alt="比赛现场的测试布局"></p>
+<p align="center"><em>C题在实验室测试</em></p>
 
 但是我们这个教学楼晚上是锁门的，所以出不去了，不过那个门的锁链并不是严格锁死的，通过一些拓扑学的手段，我们三个人都成功钻出去了。在我们出去的那阵，还有一个女生不走寻常路，直接从女厕所翻窗出去了，我觉得她很勇敢，那个地方其实很危险，因为下面有个很深的洞，稍不留神就会稍纵即逝了。
 
@@ -268,10 +234,8 @@ C题本身并不算特别复杂。我们用UWB做测距，再配合陀螺仪测�
 
 后来为了赶车，又一路从打车到地铁，再从地铁往火车站跑，最后居然在发车前十分钟赶上了。然后又换了好几趟火车，中转好几次，兜兜转转总算回到了家中，之后能做的就只有等待了，也只能等待了，等待成绩的发布。
 
-<figure class="blog-figure">
-  <img src="https://xuemanqwq.github.io/images/photos/pic20260811-1.png" width="700" alt="青岛行程配图">
-  <figcaption>最后一舞</figcaption>
-</figure>
+<p align="center"><img src="https://xuemanqwq.github.io/images/photos/pic20260811-1.png" width="700" alt="青岛行程配图"></p>
+<p align="center"><em>最后一舞</em></p>
 
 过了一段时间，成绩出来了。
 

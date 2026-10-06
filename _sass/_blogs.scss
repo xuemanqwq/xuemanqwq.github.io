@@ -160,34 +160,6 @@
     h2 { font-size: 1.25rem; }
     p, li { font-size: 0.95rem; line-height: 1.95; }
     p { margin: 0 0 1.2rem; }
-
-    // Keep imported long-form posts readable on desktop and mobile while
-    // preserving each image's original aspect ratio.
-    img {
-      display: block;
-      width: auto !important;
-      max-width: 100%;
-      height: auto;
-      max-height: min(36rem, 70vh);
-      object-fit: contain;
-      margin: 1.5rem auto 0.5rem;
-      border: 1px solid #e5eaf0;
-      border-radius: 8px;
-      background: #fff;
-    }
-    .blog-figure {
-      margin: 1.8rem 0 1.2rem;
-      text-align: center;
-      img { margin: 0 auto 0.35rem; }
-      figcaption {
-        display: block;
-        margin: 0;
-        color: #7a8798;
-        font-size: 0.82rem;
-        font-style: italic;
-        line-height: 1.6;
-      }
-    }
   }
 
   .blog-toc {
@@ -241,11 +213,6 @@
     }
     .blog-post__back { grid-column: 1 / -1; }
     .blog-post__content { grid-column: 1; }
-    // Keep captions in the article column if older rendered markup exposes
-    // them as direct children of the outer blog grid.
-    .blog-post > .blog-figure,
-    .blog-post > figcaption,
-    .blog-post > p[align="center"] { grid-column: 1; }
     .blog-toc {
       display: block;
       grid-column: 2;
@@ -266,7 +233,6 @@
   @media (max-width: 600px) {
     .blogs-page, .blog-post { padding: 0 0 2em; }
     .blogs-header h1, .blog-post__content h1 { font-size: 1.65rem; }
-    .blog-post__content img { max-height: 24rem; }
     a.blog-card { height: 248px; padding: 20px 0; }
     .blog-card__title { font-size: 21px; -webkit-line-clamp: 2; }
     p.blog-card__excerpt { font-size: 14px; }

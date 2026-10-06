@@ -165,8 +165,11 @@
     // preserving each image's original aspect ratio.
     img {
       display: block;
+      width: auto !important;
       max-width: 100%;
       height: auto;
+      max-height: min(36rem, 70vh);
+      object-fit: contain;
       margin: 1.5rem auto 0.5rem;
       border: 1px solid #e5eaf0;
       border-radius: 8px;
@@ -257,6 +260,7 @@
   @media (max-width: 600px) {
     .blogs-page, .blog-post { padding: 0 0 2em; }
     .blogs-header h1, .blog-post__content h1 { font-size: 1.65rem; }
+    .blog-post__content img { max-height: 24rem; }
     a.blog-card { height: 248px; padding: 20px 0; }
     .blog-card__title { font-size: 21px; -webkit-line-clamp: 2; }
     p.blog-card__excerpt { font-size: 14px; }

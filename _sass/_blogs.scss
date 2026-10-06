@@ -241,6 +241,11 @@
     }
     .blog-post__back { grid-column: 1 / -1; }
     .blog-post__content { grid-column: 1; }
+    // Keep captions in the article column if older rendered markup exposes
+    // them as direct children of the outer blog grid.
+    .blog-post > .blog-figure,
+    .blog-post > figcaption,
+    .blog-post > p[align="center"] { grid-column: 1; }
     .blog-toc {
       display: block;
       grid-column: 2;

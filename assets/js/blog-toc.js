@@ -11,7 +11,8 @@
     list.replaceChildren();
 
     const language = root.classList.contains('site-lang-en') ? 'en' : 'zh';
-    const article = document.querySelector('.blog-post__content.lang-panel--' + language);
+    const article = document.querySelector('.blog-post__content.lang-panel--' + language)
+      || document.querySelector('.blog-post__content');
     const headings = article ? Array.from(article.querySelectorAll('h2, h3')) : [];
     toc.hidden = headings.length === 0;
     if (!headings.length) return;

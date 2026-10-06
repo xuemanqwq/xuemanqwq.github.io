@@ -175,17 +175,16 @@
       border-radius: 8px;
       background: #fff;
     }
-    p[align="center"] {
-      margin: 1.8rem 0 0.35rem;
+    .blog-figure {
+      margin: 1.8rem 0 1.2rem;
       text-align: center;
-      img { margin: 0 auto; }
-    }
-    p[align="center"] + p {
-      margin-top: 0;
-      color: #7a8798;
-      font-size: 0.82rem;
-      line-height: 1.6;
-      text-align: center;
+      img { margin: 0 auto 0.35rem; }
+      figcaption {
+        margin: 0;
+        color: #7a8798;
+        font-size: 0.82rem;
+        line-height: 1.6;
+      }
     }
   }
 

@@ -165,7 +165,7 @@ Fun fact：我第一次回家路上路子爆掉了，疑似装了太多东西，
 
 好像折腾了一整个夏天，最后只是绕了一圈，又回到了原点。
 
-<p align="center"><img src="{{ '/images/blog/electronic-design-contest/13.png' | relative_url }}" width="800" alt="全国大学生电子设计竞赛山东赛区三等奖证书"></p>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/17.jpg' | relative_url }}" width="800" alt="全国大学生电子设计竞赛山东赛区三等奖证书"></p>
 <p align="center"><em>普通的证书</em></p>
 
 ## 大三的电赛
@@ -188,7 +188,7 @@ zyl同学，后面就叫他张神。他上一年同样做的是控制题，这�
 
 但赛题出来以后，事情还是和预想的不太一样。在崔老师的建议下，我们最后决定不再做小车，临时换到了C题。现在回头看，这个决定不能说错。只是后来发生的很多事情，大概都从这里开始了。
 
-<p align="center"><img src="{{ '/images/blog/electronic-design-contest/14.jpg' | relative_url }}" width="520" alt="C题：基于无线通信的数字钥匙实验系统题目"></p>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/13.png' | relative_url }}" width="520" alt="C题：基于无线通信的数字钥匙实验系统题目"></p>
 <p align="center"><em>基于无线通信的数字钥匙实验系统</em></p>
 
 之所以最后选择C题，主要还是因为以前实验室的房学长做过比较类似的东西，论文、代码和一些现成的硬件都还在，至少不算完全从零开始。值得一提，房学长也是个大牛，保研去了中国科学院大学，后面又留那读博士了，现在还开了公司。而且和小车题相比，C题的问数要少得多，看起来只要把核心方案做通，后面的事情就会简单不少。缺点也很明显，这种题比较冷门，做的人少，容错也低，一旦某个地方出问题，可能连补救的机会都不多。不过我们三个人本来也没有那么想继续折腾小车，最后还是决定试一试。
@@ -199,7 +199,7 @@ zyl同学，后面就叫他张神。他上一年同样做的是控制题，这�
 
 C题本身并不算特别复杂。我们用UWB做测距，再配合陀螺仪测角度，很快就把最初的方案搭了起来。真正让人头疼的，反而还是那些熟悉的硬件问题。
 
-<p align="center"><img src="{{ '/images/blog/electronic-design-contest/15.jpg' | relative_url }}" width="420" alt="手持的无线通信模块"></p>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/14.jpg' | relative_url }}" width="420" alt="手持的无线通信模块"></p>
 <p align="center"><em>UWB</em></p>
 
 板子烧了不少，陀螺仪的零漂也一直很严重。
@@ -208,14 +208,14 @@ C题本身并不算特别复杂。我们用UWB做测距，再配合陀螺仪测�
 
 第一次接上去的时候，确实有种早知道一开始就该买这个的感觉。
 
-<p align="center"><img src="{{ '/images/blog/electronic-design-contest/16.jpg' | relative_url }}" width="420" alt="数字钥匙方案的硬件"></p>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/15.jpg' | relative_url }}" width="420" alt="数字钥匙方案的硬件"></p>
 <p align="center"><em>最后的成品</em></p>
 
 可惜好用归好用，其中一个后来还是烧了，剩下那个状态也没有最开始那么理想。最后几个人又折腾了很久，靠着调参数、改代码，再加上一点AI帮忙，总算把问题压了下来。
 
 那天晚上我们大概忙到凌晨三点，就决定先不继续熬了。
 
-<p align="center"><img src="{{ '/images/blog/electronic-design-contest/17.jpg' | relative_url }}" width="700" alt="比赛现场的测试布局"></p>
+<p align="center"><img src="{{ '/images/blog/electronic-design-contest/16.jpg' | relative_url }}" width="700" alt="比赛现场的测试布局"></p>
 <p align="center"><em>C题在实验室测试</em></p>
 
 但是我们这个教学楼晚上是锁门的，所以出不去了，不过那个门的锁链并不是严格锁死的，通过一些拓扑学的手段，我们三个人都成功钻出去了。在我们出去的那阵，还有一个女生不走寻常路，直接从女厕所翻窗出去了，我觉得她很勇敢，那个地方其实很危险，因为下面有个很深的洞，稍不留神就会稍纵即逝了。
